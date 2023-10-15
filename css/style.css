@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+
+} 
+.carousel-item.first-carousel, .second-carousel, .third-carousel{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.first-carousel{
+    background-image: url(../images/old-couples.jpg);
+}
+.second-carousel{
+    background-image: url(../images/guy-calling.jpg);
+}
+.third-carousel{
+    background-image: url(../images/old-couples.jpg);
+}
+.carousel-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .58);
+}
+#carouselExampleInterval #carousel-indicators button{
+    border-radius: 50%;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+@media screen and (min-width: 578px) {
+    
+}
+@media screen and (min-width: 790px) {
+
+}
+@media screen and (min-width: 1025px) {
+    
+}
+@media screen and (min-width: 1201px) {
+    
+}
