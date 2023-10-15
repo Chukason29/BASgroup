@@ -12,13 +12,13 @@
     background-size: cover;
 }
 .first-carousel{
-    background-image: url(../images/old-couples.jpg);
+    background-image: url(../images/old-couples2.jpg);
 }
 .second-carousel{
-    background-image: url(../images/guy-calling.jpg);
+    background-image: url(../images/guy-calling2.jpg);
 }
 .third-carousel{
-    background-image: url(../images/old-couples.jpg);
+    background-image: url(../images/old-couples2.jpg);
 }
 .carousel-cover{
     width: 100%;
@@ -35,7 +35,15 @@
     
 }
 @media screen and (min-width: 790px) {
-
+    .first-carousel{
+        background-image: url(../images/old-couples.jpg);
+    }
+    .second-carousel{
+        background-image: url(../images/guy-calling.jpg);
+    }
+    .third-carousel{
+        background-image: url(../images/old-couples.jpg);
+    }
 }
 @media screen and (min-width: 1025px) {
     
