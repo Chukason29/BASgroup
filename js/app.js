@@ -39,6 +39,13 @@ $(document).ready(function() {
 		console.log((matchMedia('only screen and (min-width: 568px)').matches));
 	}
 	
+	
 });
+let menuLink = document.getElementById('ecosystem');
+let menu = document.getElementById("menu");
+menuLink.addEventListener('click', springUp);
+function springUp(){
+	menu.setAttribute('class', 'menuClass');
+}
 
 

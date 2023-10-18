@@ -2,10 +2,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Inter;
+    text-decoration: none;
+    list-style-type: none;
 }
 :root{
-
+    
 } 
+header{
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 5rem;
+}
+header img{
+    width: 250px;
+    height: 70px;
+}
+
+header p span:first-child{
+    display: inline-block;
+    width:12px;
+    height:12px;
+    background-color: rgb(18,40,201);
+    border-radius: 50%;
+}
+header p span:last-child{
+    margin-inline-start: .65rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: rgb(18,40,201);
+}
+#modal-navbar{
+    background-image: url(../images/backdrop.jpg);
+}
+#modal-dialog{
+    width: 100%;
+    background-image: url(../images/backdrop.jpg);
+}
+#modal-content{
+    border: none;
+}
+#modal-header, #modal-footer{
+    border: none;
+}
 .carousel-item.first-carousel, .second-carousel, .third-carousel{
     height: 100vh;
     width: 100vw;
@@ -23,7 +66,7 @@
 .carousel-cover{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .58);
+    background-color: rgba(108,192,73,.20);
 }
 #carouselExampleInterval #carousel-indicators button{
     border-radius: 50%;
@@ -31,8 +74,38 @@
     width: 10px;
     height: 10px;
 }
-@media screen and (min-width: 578px) {
+.menu{
+    display: none;
+}
+.menuClass{
+    display: flex;
+}
+.menuClass > div{
+    width: 50%;
     
+}
+#menu ul li a{
+    font-family: 'Young Serif', serif;
+    text-decoration: none;
+    color: grey
+}
+.menuClass img{
+    max-width: 100%;
+}
+.menuClass > div ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.menuClass i{
+    font-size: 5rem;
+    color: rgb(18,40,201);
+}
+.menu-tab-closure{
+    position: relative;
+    top:15%;
+}
+@media screen and (min-width: 578px) {   
 }
 @media screen and (min-width: 790px) {
     .first-carousel{
