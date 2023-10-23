@@ -13,7 +13,7 @@ $(document).ready(function() {
 			sectionsColor: [],
 			anchors: [],
 			scrollingSpeed: 700,
-			easing: 'swing',
+			easing: 'linear',
 			loopBottom: true,
 			loopTop: true,
 			css3: true,
@@ -41,11 +41,12 @@ $(document).ready(function() {
 	
 	
 });
-let menuLink = document.getElementById('ecosystem');
-let menu = document.getElementById("menu");
-menuLink.addEventListener('click', springUp);
+
 function springUp(){
 	menu.setAttribute('class', 'menuClass');
+}
+function displayOut(){
+	document.getElementById('menu').style.display ='none';
 }
 
 
