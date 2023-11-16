@@ -190,6 +190,16 @@
     cursor: pointer;
 }
 @media screen and (max-width: 578px) {
+    .mission-vision{
+        display: block;
+        padding: 3rem 1rem 0rem 1rem;
+    }
+    .mission-vision > div{
+        width: 100%;
+    }
+    .vision{
+        width: 100%;
+    }
     .core-values{
         display: block;
         padding-inline: 1.5rem;
