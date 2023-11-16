@@ -189,7 +189,50 @@
     font-size: .85rem;
     cursor: pointer;
 }
-@media screen and (min-width: 578px) {
+@media screen and (max-width: 578px) {
+    .core-values{
+        display: block;
+        padding-inline: 1.5rem;
+    }
+    .core-values > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:90%;
+        margin: 1rem auto;
+    }
+    .governance{
+        display: block;
+        padding: 4rem 1rem;
+    }
+    .governance > div{
+        width: 100%;
+        margin-block-start: 2rem;
+    }
+    .corporate h1{
+        font-size: 3rem;
+    }
+    .corporate p{
+        font-size: .8rem;
+    }
+    .governance-right h1{
+        display: block;
+    }
+    .governance-right{
+        margin-block-start: 3.5rem;
+    }
+    .right-inner{
+        display: block;
+    }
+    .right-inner > div{
+        width: 85%;
+        margin: auto;
+    }
+    .team .member{
+        width: 80%;
+        margin: 1rem auto;
+        
+    }  
 
 }
 @media screen and (min-width: 790px) {
