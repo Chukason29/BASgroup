@@ -45,6 +45,20 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+#mobile-navbar i{
+    font-size: 3.5rem;
+    display: inline-block;
+    width: 100%;
+    padding: .5rem 1rem;
+    color: rgb(30, 30, 30);
+}
+#mobile-navbar a{
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+#mobile-navbar p{
+    text-align: center;
+}
 .navbar{
     position: relative;
     right: 0;
@@ -286,7 +300,7 @@ a{
 }
 .portfolio-body > div:first-child img{
     max-width: 100%;
-    filter: brightness(.8);
+    filter: brightness(.6);
 }
 .portfolio-body > div:nth-child(2){
     width: 55%;
@@ -297,7 +311,7 @@ a{
 .partner-logos > div{
     display: flex;
     justify-content: center;
-    gap: .1rem;
+    gap: 2rem;
     margin-block-end: 3.5rem;
 }
 /************** blogPosts******************/
