@@ -185,7 +185,44 @@ a{
     padding: 2rem 3rem;
     text-decoration: none;
 }
-@media screen and (min-width: 578px) {   
+@media screen and (max-width: 578px) {
+    .governance{
+        display: block;
+        padding: 4rem 1rem;
+    }
+    .governance > div{
+        width: 100%;
+    }
+    .corporate h1{
+        font-size: 3rem;
+    }
+    .corporate p{
+        font-size: .8rem;
+    }
+    .governance-right h1{
+        display: block;
+    }
+    .governance-right{
+        margin-block-start: 3.5rem;
+    }
+    .right-inner{
+        display: block;
+    }
+    .right-inner > div{
+        width: 85%;
+        margin: auto;
+    }
+    .team .member{
+        width: 80%;
+        margin: 1rem auto;
+        
+    }  
+    .other-services{
+        display: block;
+    }
+    .other-services > div{
+        margin-block-start: 1.5rem;
+    }
 }
 @media screen and (min-width: 790px) {
     .first-carousel{

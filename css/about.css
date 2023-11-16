@@ -145,6 +145,9 @@
     align-items: center;
     background-color: rgb(1,1,63,.2);
 }
+.governance h1{
+    font-family: 'Young Serif', serif;
+}
 .governance > div{
     width: 50%;
     height: 100%;
@@ -154,15 +157,8 @@
     margin-block-start: 1.5rem;
     font-family: sans-serif;
 }
-.governance > div:first-child a{
-    display: inline-block;
-    color: #ffffff;
-    background-color: rgb(18,40,201);
-    font-family: sans-serif;
-    padding: 1rem 3rem;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-block-start: 1rem;
+.governance-right h1{
+    display: none;
 }
 .right-inner img{
     max-width: 100%;
@@ -193,7 +189,8 @@
     font-size: .85rem;
     cursor: pointer;
 }
-@media screen and (min-width: 578px) {   
+@media screen and (min-width: 578px) {
+
 }
 @media screen and (min-width: 790px) {
     .first-carousel{
