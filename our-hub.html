@@ -24,23 +24,34 @@
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
 <body>
-    <div class="section">
-        <div class="main-banner" >
-            <div class="main-banner-cover">
-                <div class="header1">
-                    <div class="logo">
-                        <img src="images/main-logo2.png" alt="bas group logo">
-                    </div>
-                    <nav class="navbar">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="services.html">Services </a></li>
-                            <li><a href="our-hub.html">The Hub</a></li>
-                        </ul>
-                    </nav>
+    <header class="header">
+        <div class="logo">
+          <img src="images/main-logo2.png" alt="bas group logo" class="white-logo">
+          <img src="images/main-logo.png" alt="bas group logo" class="blue-logo">
+          <label for="nav-check" data-bs-toggle="modal" data-bs-target="#modal-navbar">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="services.html">Services </a></li>
+            <li><a href="our-hub.html">The Hub</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="section main-section">
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators" id="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="section1-main">
+            <div class="carousel-inner">
+                <div class="carousel-item active asset-first-carousel" data-bs-interval="4000">
+                <div class="carousel-cover">
+                    <div class="section1-main">
                     <div class="section1-socials">
                         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -49,14 +60,61 @@
                         <a href=""><i class="fa-brands fa-threads"></i></a>
                     </div>
                     <div class="section-one-writ">
-                        <h1 class="animate__animated animate__fadeInUp">You're Welcome to our HUB</h1>
-                        <p class="animate__animated animate__fadeInDown">Feel free to explore the various opportunities on the BAS Hub</p>
-                        <a href=""> Explore Now</a>
+                        <h1 class="animate__animated animate__fadeInUp"> Optimizing Wealth, Empowering Futures: Your Trusted Partner in Asset Management</h1>
+                        <p class="animate__animated animate__fadeInDown">
+                            Empowering your financial future, our asset management company provides tailored investment solutions and expert guidance, 
+                            ensuring your wealth grows steadily and securely in an ever-changing market landscape.
+                        </p>
+                        <a href="">Manage Your Asset</a>
+                    </div>
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="carousel-item asset-second-carousel" data-bs-interval="4000">
+                <div class="carousel-cover">
+                    <div class="section1-main">
+                    <div class="section1-socials">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-threads"></i></a>
+                    </div>
+                    <div class="section-one-writ">
+                        <h1 class="animate__animated animate__fadeInDown">Empowering your financial potential through strategic asset management</h1>
+                        <p class="animate__animated animate__fadeInUp">
+                            Unlock the potential of your investments with our expert asset management services. 
+                            We're dedicated to maximizing your financial growth and securing your future
+                        </p>
+                        <a href=""> Start Growing</a>
+                    </div>
                     </div>
                 </div>
-                
+                </div>
+                <div class="carousel-item asset-third-carousel">
+                <div class="carousel-cover">
+                    <div class="section1-main">
+                    <div class="section1-socials">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-threads"></i></a>
+                    </div>
+                    <div class="section-one-writ">
+                        <h1 class="animate__animated animate__fadeInUp">Elevating your wealth, one smart investment at a time</h1>
+                        <p class="animate__animated animate__fadeInDown">
+                            Maximizing your wealth and securing your financial future, our asset management company offers expert guidance and 
+                            tailored investment strategies, ensuring your money works smarter and harder for you
+                        </p>
+                        <a href=""> Request for Proposal</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
-        </div>
+            </div>
     </div>
 
     <div class="form-section">
@@ -126,54 +184,136 @@
         </div>
     </div>
 
-    <div class="section animated-element">
-        <div class="footer-section">
-        <div class="footer-body">
-            <div class="footer-header">
-            <h1>Reach Us Now</h1>
-            </div>
-            <div class="contact-form">
-            <input type="text" name="" id="" placeholder="Enter Email">
-            <button type="submit">Submit</button>
-            </div>
-            <div class="footer-body1">
-            <div>
-                <p><i class="fa-solid fa-location-dot"></i></p>
-                <p>Address</p>
-                <p>Road 108, Close to presidential Office, Aso Villa, </p>
-            </div>
-            <div>
-                <p><i class="fa-solid fa-phone"></i></p>
-                <p>Phone</p>
-                <p>+234 -123-456-7890</p>
-            </div>
-            <div>
-                <p><i class="fa-regular fa-envelope"></i></p>
-                <p>Email</p>
-                <p>investment@basgroupng.com</p>
-            </div>
-            <div>
-                <p><i class="fa-regular fa-clock"></i></p>
-                <p>Business Hours</p>
-                <p>Mon- Fri 9:00am to 6:00pm</p>
-            </div>
-            </div>
-            <div class="footer-socials">
-                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href=""><i class="fa-brands fa-threads"></i></a>
-            </div>
-            <p style="color: rgb(18,40,201); text-align: center;">&copy; BAS GROUP 2023</p>
+    <div class="footer">
+        <div class="footer-section-one">
+        <hr>
+        <h4>Ready to grow your wealth?</h4>
+        <h1>
+            Start Your Journey to Wealth with BAS 
+            <span>
+            <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </span>
+        </h1>
+        <hr>
+        </div>
+        <div class="footer-section-two">
+        <div>
+            <h3>Explore</h3>
+            <ul>
+            <li><a href="">Who We Are</a></li>
+            <li><a href="">Board of Directors</a></li>
+            <li><a href="">Management</a></li>
+            <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Our Businesses</h4>
+            <ul>
+            <li><a href="">Investment Capital</a></li>
+            <li><a href="">Wealth Management</a></li>
+            <li><a href="">Auto Insurance</a></li>
+            <li><a href="">Health Insurance</a></li>
+            <li><a href="">Tax and Audit Consulting</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Our Newsroom</h4>
+            <ul>
+            <li><a href="">All News</a></li>
+            <li><a href="">Media</a></li>
+            <li><a href="">Awards</a></li>
+            <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Reach Us</h4>
+            <ul>
+            <li><a href="">Send a Message</a></li>
+            <li><a href="">enquiries@basgroupng.com</a></li>
+            <li><a href="">customerservice@basgroupng.com</a></li>
+            <li><a href="#">+234(0) 123 456 7890</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Sign Up For BRIEFings</h4>
+            <p>Weekly email about trends shaping markets, industries and the global economy.</p>
+        </div>
+        <div>
+            <h4>Office Address</h4>
+            <p>1 Presdential drive, Aso Villa, Asokoro, FCT, Abuja</p>
+        </div>
+        <div>
+            <ul>
+            <li><a href="">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
+            <li><a href="">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
+            <li><a href="">Policies <i class="fa-solid fa-arrow-up"></i></a></li>
+            <li><a href="">Terms & Conditions <i class="fa-solid fa-arrow-up"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-socials">
+            <p>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            </p>
+            <img src="images/certified.png" alt="" width="100">
         </div>
         </div>
     </div>
-    
-    
+
+    <!-- Modal For Mobile Navigation bar-->
+  <div class="modal fade" id="modal-navbar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div>
+                <img src="images/main-logo.png" alt="bas Logo" srcset="" width="120px" height="40px">
+            </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <nav id="mobile-navbar">
+                  <div>
+                    <div>
+                      <a href="">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="">
+                        <i class="fa-solid fa-handshake"></i>
+                        <p>About Us</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <a href="">
+                        <i class="fa-solid fa-file-invoice"></i>
+                        <p>Services</p>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="">
+                        <i class="fa-solid fa-database"></i>
+                        <p>Resources</p>
+                      </a>
+                    </div>
+                  </div>    
+            </nav>
+        </div>
+        <div class="modal-footer">
+          <!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!--<script src="js/app.js"></script>-->
     <script src="js/main.js"></script>
 </body>
 </html>
