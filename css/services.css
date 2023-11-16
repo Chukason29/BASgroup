@@ -1,0 +1,107 @@
+/* This is the standard css layout*/
+@import url('https://fonts.cdnfonts.com/css/bw-modelica-ss01');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.services > h1{
+    font-size: 3.5rem;
+    font-family: 'Young Serif', serif;
+    text-align: right;
+    padding: 3rem 15rem;
+}
+.services-images{
+    display: flex;
+    height: 650px;
+}
+.services-images > div{
+    width: 50%;
+}
+.services-images-left{
+    height: 100%;
+    width: 100%;
+}
+
+.services-images-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-images-left-member{
+    overflow: hidden;
+    position: relative;
+    height: 649px;
+}
+.services-images-right-member{
+    max-width: 50%;
+    height: 325px;
+    overflow: hidden;
+    position: relative;
+}
+.services-images-right-member img, .services-images-left-member img{
+    max-width: 100%;
+    filter: brightness(.26);
+    transform: scale(1);
+    transition: all .3s;
+}
+.services-images-right-member h2, .services-images-left-member h2{
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.services-images-right-member h2:hover + img, .services-images-left-member h2:hover + img{
+    transform: scale(1.3);
+    transition: all .3s;
+}
+.services-images-right-member p{
+    width: 70%;
+}
+/*.services-images-right > div:nth-child(1){
+    background-image: url(../images/mansion.jpg);
+    background-size: contain;
+}
+.services-images-right > div:nth-child(2){
+    background-image: url(../images/health.jpg);
+    background-size: contain;
+}
+.services-images-right > div:nth-child(3){
+    background-image: url(../images/car.jpg);
+    background-size: contain;
+}
+.services-images-right > div:nth-child(4){
+    background-image: url(../images/taxes.jpg);
+    background-size: contain;
+}*/
+:root{
+    /*Here insert css variables*/
+}
+@media screen and (min-width: 578px) {
+    
+}
+@media screen and (min-width: 790px) {
+    .team-write{
+       padding: 1rem 15rem; 
+    }
+    .team{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 2rem 1rem;
+        justify-content: center;
+    }
+    .member{
+        width: 23%;
+    }
+}
+@media screen and (min-width: 1025px) {
+    
+}
+@media screen and (min-width: 1201px) {
+    
+}

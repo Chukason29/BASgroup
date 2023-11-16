@@ -9,36 +9,9 @@
 :root{
     /*Here insert css variables*/
 }
-.page-image{
-    width: 100%;
-    background-image: url('../images/12.png');
-    height: 15rem;
-    color: #ffffff;
-}
-.page-image > div{
-    background-color: rgba(10, 10, 10, .85);
-    height: 100%;
-    z-index: 99;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    width: 100%;
-    padding-inline: 2rem;
+.team h1{
     text-align: center;
-}
-.page-image h5{
-    color: rgb(200, 200, 200)
-}
-.team-write{
-    margin-block-start: 4rem;
-    padding-inline: 2rem;
-}
-.team-write p{
-    font-family: 'Red Hat Display', sans-serif;
-    margin-block-end: 1rem;
-    font-size: 1.1rem;
+    margin-block: 2.5rem 1rem;
 }
 .member{
     padding: .5rem;
@@ -51,11 +24,12 @@
     padding: .7rem;
     text-align: center;
 }
-.member-details a{
+
+/*.member-details a{
     display: inline-block;
     color: rgb(150, 150, 150);
     margin-block-start: .4rem;
-}
+}*/
 .member-details p:first-child{
     font-size: 1rem;
     font-weight: 700;
@@ -67,23 +41,6 @@
     font-weight: 200;
     color: rgb(150, 150, 150);
 }
-.insure-now {
-    margin-block: 3rem;
-    display: flex;
-    justify-content: center;
-}
-.insure-now a{
-    display: inline-block;
-    margin-inline: auto;
-    display: flex;
-    gap: 1rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color:white;
-    padding: 1rem;
-    background-image: linear-gradient(45deg, rgb(26,123,129), #EB0C82);
-    border-radius: 40px;
-}
 @media screen and (min-width: 578px) {
     
 }
@@ -92,15 +49,19 @@
        padding: 1rem 15rem; 
     }
     .team{
+        padding: 5rem 3rem;
+    }
+    .team > div{
+        width:100%;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
         padding: 2rem 1rem;
         justify-content: center;
     }
-    .member{
-        width: 23%;
-    }
+   .board > div, .management > div{
+        width: 20%;
+   }
 }
 @media screen and (min-width: 1025px) {
     

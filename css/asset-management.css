@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --pri-font-family: 'Montserrat', sans-serif;
+} 
+
+.carousel-item.asset-first-carousel, .asset-second-carousel, .asset-third-carousel{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.asset-first-carousel{
+    background-image: url(../images/fine-guy.jpg);
+}
+.asset-second-carousel{
+    background-image: url(../images/Raise-Capital.jpg);
+}
+.asset-third-carousel{
+    background-image: url(../images/old-couples2.jpg);
+}
+.asset-about{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 3rem;
+}
+.asset-about > div{
+    width: 45%;
+}
+.asset-about-sectors > div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    column-gap: .5rem;
+}
+.asset-about-sectors > div > div{
+  width: 170px;
+  height: 150px;  
+  background-image: linear-gradient(180deg, rgba(18,40,201,.8), rgba(18,40,201,.4));
+  padding: 1.3rem;
+  margin-block-start: .5rem;
+  position: relative;
+}
+.asset-about-sectors > div > div p {
+    color: #ffffff;
+}
+.asset-about-sectors > div > div p:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    font-size: 1.4rem;
+}
+.asset-services{
+    background-color: rgb(220, 220, 220);
+    padding-block: 4rem;
+}
+.asset-services h2{
+    text-align: center;
+}
+.asset-services > div{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+}
+.asset-services > div > div{
+    width: 40%;
+}
+.asset-services > div a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: left;
+}
+.asset-milestone{
+    padding: 4rem 3rem;
+}
+.asset-milestone > div{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+}
+.asset-milestone > div > div{
+    width: 25%;
+    background-color: rgba(18,40,201,.7);
+    color: #ffffff;
+    padding: 12px;
+}
+.asset-leadership > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.asset-leadership > div > div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-top: 1px solid rgb(200, 200, 200);
+    padding: 2rem;
+    width: 45%;
+}
+.asset-leadership > div h4{
+    font-weight: 600;
+}
+.proposal{
+    padding: 5rem;
+}
+.proposal .form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form form{
+    width: 60%;
+}
+.form input{
+    border: .5px solid rgb(230, 230, 230);
+    width: 45%;
+    padding: .65rem .4rem;
+}
+.form textarea{
+    border: .5px solid rgb(230, 230, 230);
+    width: 91.2%;
+    padding: 1rem .4rem;
+}
+.form-divs{
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
+    margin-block-start: .5rem;
+}
+.form button{
+    background-color: rgba(18,40,201,.8);
+    color: #fff;
+    border: none;
+    width: 91.2%;
+    padding: .75rem;
+}
+#loader{ 
+    display: none;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.checkbox-div{
+    padding: 1rem 3rem;
+}
+.checkbox-div input{
+    width: 30px
+}
+.other-services{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.other-services > div{
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    background-image: linear-gradient(180deg, #ffffff, #fff, rgba(18,40,201,.12));
+}
+.other-services a{
+    color: rgb(70, 70, 70);
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 2rem 3rem;
+    text-decoration: none;
+}
+@media screen and (min-width: 578px) {   
+}
+@media screen and (min-width: 790px) {
+    .first-carousel{
+        background-image: url(../images/old-couples.jpg);
+    }
+    .second-carousel{
+        background-image: url(../images/guy-calling.jpg);
+    }
+    .third-carousel{
+        background-image: url(../images/old-couples.jpg);
+    }
+}
+@media screen and (min-width: 1025px) {
+    
+}
+@media screen and (min-width: 1201px) {
+    
+}

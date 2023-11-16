@@ -1,0 +1,107 @@
+/* This is the standard css layout*/
+@import url('https://fonts.cdnfonts.com/css/bw-modelica-ss01');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --animate-duration: 5s;
+    --animate-delay: .9s;
+}
+.animated-element {
+    opacity: 0;
+    position: relative;
+    top: 4rem;
+    transition: all .8s ease;
+    transition-delay: 1.7;
+}
+.animated-element.visible {
+    opacity: 1;
+    position: relative;
+    top: 0rem;
+    transition: all .9s ease;
+}
+.form-section{
+    padding: 5rem 3rem;
+}
+.form-section > h1{
+    text-align: center;
+    margin-block-end: 2rem;
+}
+.forms-grid{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.forms-grid div{
+    width: 15%;
+    height: 180px;
+    border: .1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forms-grid div i {
+    font-size: 5.5rem;
+    margin-block-end: 1rem;
+}
+.forms-grid div a {
+    display: inline-block;
+    padding: .3rem 1rem;
+    background-color: rgba(18,40,201);
+    color: #fff;
+    border-radius: 40px;
+    font-size: .75rem;
+}
+.insights-section{
+    background-color: rgba(18,40,201, .4);
+    padding: 5rem 2rem;
+}
+.insights-section h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-block-end: 3rem;
+}
+.insights-grid{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.insights-grid > div{
+    width: 25%;
+    height: 280px;
+    box-shadow: 0px 0px 10px rgba(200, 200, 200, .4);
+}
+.insights-grid iframe{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    /*Here insert css variables*/
+}
+@media screen and (min-width: 578px) {
+    
+}
+@media screen and (min-width: 790px) {
+    .team-write{
+       padding: 1rem 15rem; 
+    }
+    .team{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 2rem 1rem;
+        justify-content: center;
+    }
+    .member{
+        width: 23%;
+    }
+}
+@media screen and (min-width: 1025px) {
+    
+}
+@media screen and (min-width: 1201px) {
+    
+}

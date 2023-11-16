@@ -49,4 +49,3 @@ function displayOut(){
 	document.getElementById('menu').style.display ='none';
 }
 
-

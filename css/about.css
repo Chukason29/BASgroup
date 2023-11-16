@@ -24,6 +24,31 @@
     display: flex;
     justify-content: center;
 }
+.ceo-statement{
+    padding: 3rem 5rem;
+    background-color: rgb(18,40,201, .1);
+}
+.ceo-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ceo-video iframe{
+    width: 80%;
+    height: 35rem;
+}
+.about-statement{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-block-start: 2rem;
+}
+.about-statement > div{
+    width: 29%;
+}
+.about-statement > div p{
+    font-size: 1.12rem;
+}
 .mission-vision{
     display: flex;
     padding: 2rem 3.5rem;
@@ -31,6 +56,10 @@
 }
 .mission-vision > *{
     width: 50%;
+}
+.mission-image img{
+    filter: contrast(.4);
+    filter: brightness(.6);
 }
 .sectioned-two{
     padding: 3rem;
@@ -72,6 +101,97 @@
 .inner-section > div:first-child p{
     font-size: 2.1rem;
     padding-bottom: 2rem;
+}
+.mission h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-block-end: 1.5rem;
+}
+.mission, .vision{
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 0px 0px 15px rgba(245,245,245,.85);
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    margin-block-start: 2.5rem;
+}
+.core-values{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding-block-end: 4rem;
+    padding-inline: 5rem;
+}
+.core-values h2, .core-values p{
+    text-align: center;
+}
+.core-values > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+}
+.core-values svg{
+    margin: auto;
+}
+.trust, .friendliness{
+    margin-block-start: -20px;
+}
+.governance{
+    width: 100%;
+    padding: 6rem 8rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color: rgb(1,1,63,.2);
+}
+.governance > div{
+    width: 50%;
+    height: 100%;
+}
+.governance > div > p{
+    font-size: 1.37rem;
+    margin-block-start: 1.5rem;
+    font-family: sans-serif;
+}
+.governance > div:first-child a{
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgb(18,40,201);
+    font-family: sans-serif;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-block-start: 1rem;
+}
+.right-inner img{
+    max-width: 100%;
+}
+.right-inner{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+.right-inner > div {
+    width: 40%;
+}
+.right-inner > div p{
+    background-color: #ffffff;
+    color: #444;
+    margin-top: -2px;
+    padding: .6rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22.5px;
+}
+.right-inner > div p span{
+    color: rgb(180,180,180);
+}
+.view-profile{
+    font-size: .85rem;
+    cursor: pointer;
 }
 @media screen and (min-width: 578px) {   
 }
