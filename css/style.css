@@ -152,8 +152,17 @@ a{
 
 .main-section{
     position: relative;
-    top:-6.5rem;
+    top:-5.3rem;
 }
+.main-section ~ *{
+    position: relative;
+    top:-5.3rem;
+}
+.footer{
+    position: relative;
+    top: 0rem;
+}
+
 .header label{
     display: none;
 }
