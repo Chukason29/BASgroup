@@ -35,6 +35,12 @@ a{
 .auto-carousel{
     background-image: url(../images/Car-Insurance.jpg);
 }
+.health-carousel{
+    background-image: url(../images/Health-Insurance.jpg)
+}
+.tax-carousel{
+    background-image: url(../images/Tax.jpg)
+}
 .asset-about{
     display: flex;
     justify-content: center;
