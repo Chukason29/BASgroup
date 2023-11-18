@@ -33,10 +33,11 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+    margin-top: 30px;
 }
 .forms-grid div{
-    width: 15%;
-    height: 180px;
+    width: 20%;
+    height: 250px;
     border: .1px solid rgb(220, 220, 220);
     display: flex;
     flex-direction: column;
@@ -48,12 +49,7 @@
     margin-block-end: 1rem;
 }
 .forms-grid div a {
-    display: inline-block;
-    padding: .3rem 1rem;
-    background-color: rgba(18,40,201);
-    color: #fff;
-    border-radius: 40px;
-    font-size: .75rem;
+    color: rgba(18,40,201);
 }
 .insights-section{
     background-color: rgba(18,40,201, .4);
@@ -81,8 +77,31 @@
 :root{
     /*Here insert css variables*/
 }
-@media screen and (min-width: 578px) {
-    
+@media screen and (max-width: 578px) {
+    .form-section{
+        padding: 0rem 3rem;
+    }
+    .form-section > h1{
+        text-align: center;
+        margin-block-end: 2rem;
+        font-size: 3rem;
+        font-family: 'Young Serif', serif;
+    }
+    .forms-grid {
+        display: block;
+
+    }
+    .forms-grid > div{
+        width: 100%;
+        margin-block-start: 1.5rem;
+    }
+    .insights-section > div{
+        display: block;
+    }
+    .insights-section > div > div{
+        width: 100%;
+        margin-block-start: 2rem;
+    }
 }
 @media screen and (min-width: 790px) {
     .team-write{

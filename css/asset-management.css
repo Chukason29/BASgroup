@@ -16,7 +16,12 @@ a{
     --pri-font-family: 'Montserrat', sans-serif;
 } 
 
-.carousel-item.asset-first-carousel, .asset-second-carousel, .asset-third-carousel{
+.carousel-item.asset-first-carousel, 
+.investment-carousel,
+.auto-carousel,
+.health-carousel,
+.tax-carousel
+{
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -24,11 +29,11 @@ a{
 .asset-first-carousel{
     background-image: url(../images/fine-guy.jpg);
 }
-.asset-second-carousel{
+.investment-carousel{
     background-image: url(../images/Raise-Capital.jpg);
 }
-.asset-third-carousel{
-    background-image: url(../images/old-couples2.jpg);
+.auto-carousel{
+    background-image: url(../images/Car-Insurance.jpg);
 }
 .asset-about{
     display: flex;
@@ -117,6 +122,10 @@ a{
 .asset-leadership > div h4{
     font-weight: 600;
 }
+.asset-leadership img{
+    width: 180px;
+    height: 180px;
+}
 .proposal{
     padding: 5rem;
 }
@@ -186,12 +195,75 @@ a{
     text-decoration: none;
 }
 @media screen and (max-width: 578px) {
+    .asset-about{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .asset-about > div{
+        width: 100%;
+    }
+    .asset-about-sectors > div{
+
+    }
+    .asset-about-sectors > div > div{
+        width: 48%;
+    }
+    .asset-services > div{
+        display: block;
+    }
+    .asset-services h2{
+        text-align: center;
+        font-family: 'Young Serif', serif;
+        font-size: 3rem;
+    }
+    .asset-services > div > div{
+        width: 90%;
+        margin: auto;
+    }
+    .asset-milestone > div{
+        display: block;
+    }
+    .asset-milestone > h2{
+        font-family: 'Young Serif', serif;
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .asset-milestone > div > div{
+        width: 95%;
+        margin: .5rem auto;
+    }
+    .asset-leadership > h2{
+        text-align: center;
+        font-family: 'Young Serif', serif;
+        font-size: 2rem;
+    }
+    .asset-leadership p{
+        font-size: .85rem;
+    }
+    .asset-leadership img{
+        width: 180px;
+        height: 100px;
+    }
+    .asset-leadership > div{
+        display: block;
+    }
+    .asset-leadership > div > div{
+        width: 100%;
+    }
+    .proposal{
+        padding: 5rem .5rem;
+        margin-top: 3rem;
+    }
+    .form form{
+        width: 90%;
+    }
     .other-services{
         display: block;
     }
     .other-services > div{
         margin-block-start: 1.5rem;
     }
+    
 }
 @media screen and (min-width: 790px) {
     .first-carousel{
