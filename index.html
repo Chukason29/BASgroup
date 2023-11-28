@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="Insurance Asset management Best">
     <title>BAS GROUP | Home</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css">-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -15,17 +16,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Young+Serif&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c1ada6317.js" crossorigin="anonymous"></script>
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
 <body>
   <header class="header">
     <div class="logo">
-      <img src="images/main-logo2.png" alt="bas group logo" class="white-logo">
-      <img src="images/main-logo.png" alt="bas group logo" class="blue-logo">
+      <img src="images/main-logo2.png" alt="bas group logo" id="white-logo">
+      <img src="images/main-logo.png" alt="bas group logo" id="blue-logo">
       <label for="nav-check" data-bs-toggle="modal" data-bs-target="#modal-navbar">
         <i class="fa-solid fa-bars"></i>
       </label>
@@ -47,16 +46,16 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
           <div class="carousel-inner">
-            <div class="carousel-item active first-carousel" data-bs-interval="4000">
+            <div class="carousel-item active home-first-carousel" data-bs-interval="4000">
               <div class="carousel-cover">
                 
                 <div class="section1-main">
                   <div class="section1-socials">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-threads"></i></a>
+                    <a href="https://wa.link/28zplg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/TheBasCapital?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/basgroupng?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/BASgroupNG?t=TfyMcGvY2OHXmElXhorqww&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/thebasgroup/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
                   <div class="section-one-writ">
                       <h1 class="animate__animated animate__fadeInUp">Seamless Cover to be Everyday You</h1>
@@ -73,39 +72,37 @@
               <div class="carousel-cover">
                 <div class="section1-main">
                   <div class="section1-socials">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-threads"></i></a>
+                    <a href="https://wa.link/28zplg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/TheBasCapital?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/basgroupng?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/BASgroupNG?t=TfyMcGvY2OHXmElXhorqww&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/thebasgroup/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
                   <div class="section-one-writ">
-                      <h1 class="animate__animated animate__fadeInUp">Seamless Cover to be Everyday You</h1>
-                      <p class="animate__animated animate__fadeInDown">Hassle-free insurance products to cater any sphere of life
-                        Backed by the power of technology we are on the verge of seamless experience with Insurance products
+                      <h1 class="animate__animated animate__fadeInUp">An Ecosystem Built for You</h1>
+                      <p class="animate__animated animate__fadeInDown">Explore our comprehensive financial ecosystem, designed to provide seamless solutions and empower 
+                        individuals to navigate and thrive in today's dynamic economic landscape
                         </p>
-                      <a href=""> Explore Now</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item third-carousel">
+            <div class="carousel-item third-carousel" id="third-carousel">
               <div class="carousel-cover">
                 <div class="section1-main">
                   <div class="section1-socials">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-threads"></i></a>
+                    <a href="https://wa.link/28zplg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/TheBasCapital?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/basgroupng?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/BASgroupNG?t=TfyMcGvY2OHXmElXhorqww&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/thebasgroup/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
                   <div class="section-one-writ">
-                      <h1 class="animate__animated animate__fadeInUp">Seamless Cover to be Everyday You</h1>
-                      <p class="animate__animated animate__fadeInDown">Hassle-free insurance products to cater any sphere of life
-                        Backed by the power of technology we are on the verge of seamless experience with Insurance products
-                        </p>
-                      <a href=""> Explore Now</a>
-                  </div>
+                    <h1 class="animate__animated animate__fadeInUp">It All Begins With Wealth</h1>
+                    <p class="animate__animated animate__fadeInDown">Unlock your path to prosperity with our expert guidance on strategic wealth 
+                      creation strategies, empowering you to build a robust financial future
+                      </p>
+                </div>
                 </div>
               </div>
             </div>
@@ -114,63 +111,41 @@
   </div>
   <div class="section">
     <div class="home-services">
-      <div class="home-services-writ">
-        <h1 class="animated-element">
-          Explore Endless Opportunities to Financial Growth
-        </h1>
-        <p class="animated-element">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio totam architecto eius impedit 
-          explicabo sed a quidem mollitia fugit amet, 
-          id similique! Architecto repellat, doloremque assumenda itaque laborum facilis!
-        </p>
-      </div>
       <div class="home-services-images">
-          <div class="top-service animated-element">
-            <div class="service-image-writ">
-              <h4>Raise that financial capital to boost that vision </h4>
-            </div>
-            <div>
-                <img src="images/taxes.jpg" alt="">
-            </div>
+        <div class="top-service animated-element">
+          <div class="service-image-writ">
+            <a href="http://"><h4>Raise lasting Wealth With BAS WEALTH</h4></a>
           </div>
-          <div class="bottom-service animated-element">
-            <div>
-              <img src="images/car.jpg" alt="">
-            </div>
-            <div class="service-image-writ">
-              <h4>Raise that financial capital to boost that vision </h4>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="home-services">
-      <div class="home-services-images">
-          <div class="top-service animated-element">
-            <div class="service-image-writ">
-              <h4>Raise that financial capital to boost that vision </h4>
-            </div>
-            <div>
-                <img src="images/Raise-Capital.jpg" alt="">
-            </div>
-          </div>
-          <div class="bottom-service animated-element">
-            <div>
+          <div>
               <img src="images/health.jpg" alt="">
-            </div>
-            <div class="service-image-writ">
-              <h4>Raise that financial capital to boost that vision </h4>
-            </div>
           </div>
+        </div>
+        <div class="bottom-service animated-element">
+          <div>
+            <img src="images/health.jpg" alt="">
+          </div>
+          <div class="service-image-writ">
+            <a href=""><h4>Raise that protection for all you cherish With BAS INSURANCE</h4></a>
+          </div>
+        </div>
       </div>
-      <div class="home-services-writ">
-        <h1 class="animated-element">
-          Explore Endless Opportunities to Financial Growth
-        </h1>
-        <p class="animated-element">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio totam architecto eius impedit 
-          explicabo sed a quidem mollitia fugit amet, 
-          id similique! Architecto repellat, doloremque assumenda itaque laborum facilis!
-        </p>
+      <div class="home-services-images">
+        <div class="top-service animated-element">
+          <div class="service-image-writ">
+            <a href=""><h4>Raise for your capital needs and ventures with BAS FINANCE</h4></a>
+          </div>
+          <div>
+              <img src="images/health.jpg" alt="">
+          </div>
+        </div>
+        <div class="bottom-service animated-element">
+          <div>
+            <img src="images/health.jpg" alt="">
+          </div>
+          <div class="service-image-writ">
+            <h4>Raise that financial capital to boost that vision </h4>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -181,18 +156,43 @@
           <h5>Featured News</h5>
           <h1>MAYA: Introducing the First WhatsApp Enabled Auto Insurance</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero et 
-            dolorum facilis commodi tempora illo totam quisquam fugiat consequuntur aliquam, 
+            BAS Insurance launches MAYA to revolutionise the Nigerian market…
           </p>
-          <a href="">Read More </a>
+          <a href="maya.basinsurancebrokers.com">Read More </a>
         </div> 
       </div>
     </div>
   </div>
-  <div class="portfolio">
-    <div class="portfolio-header">
-      <h1>Our Partners</h1>
+  <div class="press-news">
+    <div class="press-news-body">
+      <img src="images/11.png" alt="">
+      <a href="">
+        <h5>
+          NAICOM, BASInsurance brokers welcomes MAYA and sue for Synergy in the insurance sector
+        </h5>
+        <p>Galaxy TV</p>
+      </a>
     </div>
+    <div class="press-news-body">
+      <img src="images/19.png" alt="">
+      <a href="">
+        <h5>
+          NAICOM, BASInsurance brokers welcomes MAYA and sue for Synergy in the insurance sector
+        </h5>
+        <p>Galaxy TV</p>
+      </a>
+    </div>
+    <div class="press-news-body">
+      <img src="images/25.png" alt="">
+      <a href="">
+        <h5>
+          NAICOM, BASInsurance brokers welcomes MAYA and sue for Synergy in the insurance sector
+        </h5>
+        <p>Galaxy TV</p>
+      </a>
+    </div>
+  </div>
+  <div class="portfolio">
     <div class="portfolio-body">
         <div><img src="images/partnership.jpg" alt=""></div>
         <div class="partner-logos">
@@ -209,34 +209,8 @@
         </div>
     </div>
   </div>
-  <section class="press-release animated-element">
-    <h1>In The News</h1>
-    <div class="news">
-        <div class="news-flex">
-            <img src="images/11.png" alt="Maya Insurance Motor Car best">
-            <a href="https://youtu.be/K3bkea3KJ2I?si=tEctxjYiHfqGvftS" target="_blank">
-                <p>NAICOM, BASInsurance brokers welcomes MAYA and sue for Synergy in the insurance sector</p>
-            </a>
-            <p class="stations">Galaxy TV</p>
 
-        </div>
-        <div class="news-flex">
-            <img src="images/25.png" alt="Maya Insurance Motor Car best">
-            <a href="https://thenationonlineng.net/firm-unveils-whatsapp-platform-for-vehicle-owners/"  target="_blank">
-                <p>Firm unveils Whatsapp  platform for vehicle owners</p>
-            </a>
-            <p class="stations">The Nation Newspaper</p>
-        </div>
-        <div class="news-flex">
-            <img src="images/19.png" alt="Maya Insurance Motor Car best">
-            <a href="https://nannews.ng/2023/09/04/firm-inaugurates-nigerias-1st-insurance-whatsapp-enabled-platform/"  target="_blank">
-                <p>Maya Insurance from the comfort of your home</p>
-            </a>
-            <p class="stations">News Agency of Nigeria (NAN)</p>
-        </div>
-        
-    </div>
-  </section>
+   
   <div class="section footer animated-element">
     <div class="footer-section-one">
       <hr>
@@ -250,66 +224,96 @@
       <hr>
     </div>
     <div class="footer-section-two">
-      <div>
-        <h3>Explore</h3>
-        <ul>
-          <li><a href="about-us.html">Who We Are</a></li>
-          <li><a href="about-us.html#board">Board of Directors</a></li>
-          <li><a href="about-us.html#management">Management</a></li>
-          <li><a href="">Careers</a></li>
-        </ul>
+      <div class="explore">
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="about-us.html">Who We Are</a></li>
+            <li><a href="about-us.html#board">Board of Directors</a></li>
+            <li><a href="about-us.html#management">Our Leadership</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Our Businesses</h4>
+          <ul>
+            <li><a href="bas-capital.html">BAS Capital</a></li>
+            <li><a href="wealth.html">BAS Wealth</a></li>
+            <li><a href="finance.html">BAS Finance</a></li>
+            <li><a href="insurance.html">BAS Insurance</a></li>
+            <li class="investment"><strong><a href="investiments.html">Investments</a></strong></li>
+          </ul>
+        </div>
       </div>
-      <div>
+      <div class="footer-business">
         <h4>Our Businesses</h4>
         <ul>
-          <li><a href="investiment-capital.html">Investment Capital</a></li>
-          <li><a href="asset-management.html">Wealth Management</a></li>
-          <li><a href="auto-insurance.html">Auto Insurance</a></li>
-          <li><a href="health-insurance.html">Health Insurance</a></li>
-          <li><a href="tax-audit.html">Tax and Audit Consulting</a></li>
+          <li><a href="bas-capital.html">BAS Capital</a></li>
+          <li><a href="wealth.html">BAS Wealth</a></li>
+          <li><a href="finance.html">BAS Insurance</a></li>
+          <li><a href="insurance.html">BAS Finance</a></li>
+          <li class="investment"><strong><a href="investiments.html">Investments</a></strong></li>
         </ul>
       </div>
-      <div>
-        <h4>Our Newsroom</h4>
-        <ul>
-          <li><a href="">All News</a></li>
-          <li><a href="">Media</a></li>
-          <li><a href="">Awards</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
+      <div class="explore">
+        <div>
+            <h4>The HUB</h4>
+            <ul>
+              <li><a href="">All News</a></li>
+              <li><a href="">Media</a></li>
+              <!--<li><a href="">Awards</a></li>-->
+              <!--<li><a href="">Blog</a></li>-->
+            </ul>
+          </div>
+          <div>
+            <h4>Reach Us</h4>
+            <ul>
+              <li><a href="our-hub.html#proposal">Send a Message</a></li>
+              <li><a href="">enquiries@basgroupng.com</a></li>
+              <li><a href="">customerservice@basgroup.ng</a></li>
+              <li><a href="#">+234(0)901 708 3220</a></li>
+            </ul>
+          </div>
       </div>
-      <div>
+      <div class="footer-business">
         <h4>Reach Us</h4>
         <ul>
-          <li><a href="">Send a Message</a></li>
+          <li><a href="our-hub.html#proposal">Send a Message</a></li>
           <li><a href="">enquiries@basgroupng.com</a></li>
-          <li><a href="">customerservice@basgroupng.com</a></li>
-          <li><a href="#">+234(0) 123 456 7890</a></li>
+          <li><a href="">customerservice@basgroup.ng</a></li>
+          <li><a href="#">+234(0)901 708 3220</a></li>
         </ul>
       </div>
       <div>
-        <h4>Sign Up For BRIEFings</h4>
+        <h4>Stay Updated</h4>
         <p>Weekly email about trends shaping markets, industries and the global economy.</p>
+        <form action="" method="post" id="footer-form">
+          <div class="form-divs">
+              <input type="email" name="footer-email" id="footer-email" required placeholder="Email:">
+              <button type="submit" id="footer-submit">Send<span id="footer-loader"><i class="fa-regular fa-circle fa-fade"></i></span></button>
+          </div>
+          <div id="footer-result"></div>
+      </form>
       </div>
       <div>
         <h4>Office Address</h4>
-        <p>1 Presdential drive, Aso Villa, Asokoro, FCT, Abuja</p>
+        <p>C4, Plot 1196, 29A N'djamena Crescent, Off Aminu Kano Crescent, Wuse 2, Abuja.</p>
       </div>
       <div>
         <ul>
-          <li><a href="">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
-          <li><a href="">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="our-hub.html#faq">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="our-hub.html#documents">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
           <li><a href="">Policies <i class="fa-solid fa-arrow-up"></i></a></li>
           <li><a href="">Terms & Conditions <i class="fa-solid fa-arrow-up"></i></a></li>
         </ul>
       </div>
       <div class="footer-socials">
         <p>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-brands fa-whatsapp"></i>
+          <a href="https://wa.link/28zplg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/TheBasCapital?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://x.com/BASgroupNG?t=TfyMcGvY2OHXmElXhorqww&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://instagram.com/basgroupng?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/thebasgroup/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         </p>
         <img src="images/certified.png" alt="" width="100">
       </div>

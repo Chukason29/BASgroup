@@ -21,32 +21,27 @@
     font-family: 'Young Serif', serif;
     font-size: 5.5rem;
 }
-.services > h1{
-    font-size: 3.5rem;
-    font-family: 'Young Serif', serif;
-    text-align: right;
-    padding: 3rem 15rem;
+.services{
+    height: 270px;
 }
 .services-images{
     display: flex;
-    height: 650px;
+    height: 100%;
 }
 .services-images > div{
     width: 50%;
 }
 .services-images-left{
-    height: 100%;
     width: 100%;
 }
 
-.services-images-right{
-    display: flex;
-    flex-wrap: wrap;
-}
 .services-images-left-member{
     overflow: hidden;
     position: relative;
     height: 649px;
+}
+.service-first-carousel{
+    background-image: url(../images/3.png);
 }
 .services-images-right-member{
     max-width: 50%;
@@ -60,7 +55,7 @@
     transform: scale(1);
     transition: all .3s;
 }
-.services-images-right-member h2, .services-images-left-member h2{
+.services-images-right-member h4, .services-images-left-member h4{
     position: absolute;
     z-index: 99;
     height: 100%;
@@ -76,7 +71,7 @@
     transition: all .3s;
 }
 .services-images-right-member p{
-    width: 70%;
+    width: 90%;
 }
 /*.services-images-right > div:nth-child(1){
     background-image: url(../images/mansion.jpg);

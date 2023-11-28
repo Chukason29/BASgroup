@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    position: relative;
+}
+.none{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+:root{
+    --pri-font-family: 'Montserrat', sans-serif;
+} 
+.animated-element {
+    opacity: 0;
+    position: relative;
+    top: 4rem;
+    transition: all .8s ease;
+    transition-delay: 1.7;
+}
+.animated-element.visible {
+    opacity: 1;
+    position: relative;
+    top: 0rem;
+    transition: all .9s ease;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding: .4rem 5rem;
+   width:100%;
+   position: sticky;
+   top: 0;
+   z-index: 99;
+   background-color: #fff;
+}
+#mobile-navbar > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#mobile-navbar i{
+    font-size: 3.5rem;
+    display: inline-block;
+    width: 100%;
+    padding: .5rem 1rem;
+    color: rgb(30, 30, 30);
+}
+#mobile-navbar a{
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+#mobile-navbar p{
+    text-align: center;
+}
+.navbar{
+    position: relative;
+    right: 0;
+}
+.header img{
+    width: 250px;
+    height: 70px;
+}
+.header ul{
+    display: flex;
+    gap: 2rem;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(18,40,201);
+    border-bottom: none;
+    padding: .2rem;
+}
+.header ul li a:hover{
+    border-bottom: 1.5px solid #fff;
+}
+.header-scrolled{
+    background-color: #ffff;
+    box-shadow: 0px 0px 15px rgb(200, 200, 200);
+}
+.header-scrolled ul li a{
+    color: rgb(18,40,201);
+}
+.header-scrolled ul li a:hover{
+    border-bottom: 1.5px solid #fff;
+}
+
+
+
+
+
+.main-banner{
+    padding-inline: 1.5rem;
+    margin-block-end: 5rem;
+    display: flex;
+    padding-inline: 4rem;
+}
+.main-banner > div {
+    width: 50%;
+}
+.main-banner h1{
+    font-family: 'Young Serif', serif;
+    font-size: 3.3rem;
+    color: rgb(40, 40, 40);
+    font-weight: 900;
+    margin-block: 2rem ;
+}
+.main-banner h1 span:first-child{
+    color: rgb(26,123,129); 
+}
+.main-banner h1 span:last-child{
+    color: #EB0C82; 
+}
+.main-banner img{
+    max-width: 100%;
+}
+.main-banner p{
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: .045rem;
+    color: rgb(70, 70, 70);
+    margin-block-end: 1.5rem;
+}
+.main-banner p span{
+    font-family: 'Bw Modelica SS01', sans-serif;
+    font-weight: 600;  
+}
+
+
+
+/*****************FOOTER SECTION******************/
+.footer{
+    background-color: rgb(1, 1, 63);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.footer-section-one{
+    padding: 1rem 3.5rem;
+    
+}
+.footer-section-one h1{
+    font-size: 4.2rem;
+}
+
+.footer-section-two{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 1rem 3.5rem;
+    width: 100%;
+}
+.footer-section-two > div{
+    width: 20%;
+}
+.footer-section-two ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-section-two ul a{
+    display:inline-block;
+    color: #ffffff;
+    font-size: .9rem;
+    padding-block-end: .3rem;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-section-two p{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+.footer-socials p{
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 596px) {
+    .header{
+        padding: .5rem;
+        flex-direction: column;
+    }
+    .header img{
+        width: 150px;
+        height: 40px
+    }
+    .header > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header i{
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .header input{ display: none;}
+    .header i{
+        color: rgb(18,40,201);
+        font-size: 1.3rem;
+    }
+    .main-banner{
+        display: block;
+        padding: 1.5rem;
+    }
+    .main-banner > div{
+        width: 100%;
+    }
+    .main-banner h1{
+        font-size: 2rem;
+    }
+    .footer{
+        padding: 1rem;
+    }
+    .footer-section-two{
+        display: block;
+    }
+    .footer-section-one h1{
+        font-size: 3rem;
+    }
+    .footer-section-two > div{
+        width: 100%;
+        margin-block-start: 2rem;
+    }
+    .footer-section-one, .footer-section-two{
+        padding: 1.2rem 2rem;
+    }
+}

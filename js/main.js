@@ -56,10 +56,48 @@ $(document).ready(function(){
     })    
 })
 
+
+
+
+$(document).ready(function(){
+    document.querySelector("#footer-loader").style.display = "none";
+    $('#footer-submit').click(function(event){
+        event.preventDefault();
+        let formData = $("#footer-form").serialize()
+        let footerEmail = document.querySelector("#footer-email");
+        let footerResult = document.querySelector("#footer-result");
+        document.querySelector("#footer-loader").style.display = "block";
+        const checkError = [];
+        var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (footerEmail.value == "" || !emailPattern.test(footerEmail.value)) {
+            checkError.push("Wrong email");
+        }
+        if (checkError.length > 0) {
+            footerResult.innerHTML = "<p>" + checkError[0] + "</p>";
+            document.querySelector("#footer-loader").style.display = "none";
+            footerResult.style.color ="red";
+        }else{
+            $.ajax({
+                url: 'footer-proposal.php',
+                method: 'post',
+                data : formData + '&action=footer-submit',
+            }).done(function(result){
+                $('#footer-loader').hide();
+                footerResult.innerHTML = result;
+                footerResult.style.color= "green"
+            })
+        }
+    })    
+})
+
+
+
+
+
 const header = document.querySelector("header");
 const sectionOne = document.querySelector(".main-section");
-const blueLogo = document.querySelector(".blue-logo");
-const whiteLogo = document.querySelector(".white-logo");
+const blueLogo = document.querySelector("#blue-logo");
+const whiteLogo = document.querySelector("#white-logo");
 const menu = document.querySelector(".header i");
 
 const sectionOneOptions = {
@@ -84,3 +122,21 @@ const sectionOneObserver =  new IntersectionObserver(function(entries, sectionOn
 sectionOneOptions);
 
 sectionOneObserver.observe(sectionOne);
+
+const footerMail = document.querySelector("#footer-email");
+footerMail.addEventListener("click", ()=> function(){
+    document.getElementById("footer-loader").innerHTML = "x";
+})
+
+// Checking for scroll when scrolling down or up
+const nav = document.querySelector(".header");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () =>{
+    if (lastScrollY < window.scrollY) {
+        nav.style.display ="none"
+    }else{
+        nav.style.display ="flex"
+    }
+    lastScrollY = window.scrollY;
+})

@@ -49,18 +49,21 @@
        padding: 1rem 15rem; 
     }
     .team{
-        padding: 5rem 3rem;
+        padding: .2rem 3rem;
     }
     .team > div{
         width:100%;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
-        padding: 2rem 1rem;
+        padding: 1.5rem 1rem;
         justify-content: center;
     }
-   .board > div, .management > div{
+   .board > div{
         width: 20%;
+   } 
+   .management > div{
+        width: 18%;
    }
 }
 @media screen and (min-width: 1025px) {

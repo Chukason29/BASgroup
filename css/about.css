@@ -15,6 +15,9 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+.about-first-carousel{
+    background-image: url(../images/1.png);
+}
 .main-banner-cover{
     width: 100%;
     height: 100%;
@@ -25,7 +28,7 @@
     justify-content: center;
 }
 .ceo-statement{
-    padding: 3rem 5rem;
+    padding: 1rem 5rem;
     background-color: rgb(18,40,201, .1);
 }
 .ceo-video {
@@ -115,41 +118,23 @@
     padding: 2rem;
     margin-block-start: 2.5rem;
 }
-.core-values{
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    padding-block-end: 4rem;
-    padding-inline: 5rem;
-}
-.core-values h2, .core-values p{
-    text-align: center;
-}
-.core-values > div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width:30%;
-}
-.core-values svg{
-    margin: auto;
-}
-.trust, .friendliness{
-    margin-block-start: -20px;
-}
 .governance{
     width: 100%;
-    padding: 6rem 8rem;
+    padding: 2rem 3rem;
     display: flex;
     gap: 4rem;
     align-items: center;
-    background-color: rgb(1,1,63,.2);
+    background-color: rgb(1,1,63,.05);
 }
 .governance h1{
     font-family: 'Young Serif', serif;
 }
-.governance > div{
-    width: 50%;
+.governance > div:first-child{
+    width: 35%;
+    height: 100%;
+}
+.governance > div:nth-child(2){
+    width: 60%;
     height: 100%;
 }
 .governance > div > p{
@@ -159,6 +144,15 @@
 }
 .governance-right h1{
     display: none;
+}
+.corporate {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.corporate > div{
+    width: 45%;
 }
 .right-inner img{
     max-width: 100%;
@@ -170,7 +164,7 @@
     width: 100%;
 }
 .right-inner > div {
-    width: 40%;
+    width: 30%;
 }
 .right-inner > div p{
     background-color: #ffffff;
