@@ -31,10 +31,10 @@
     </div>
     <nav class="navbar">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="services.html">Services </a></li>
-        <li><a href="our-hub.html">The Hub</a></li>
+        <li><a href="index">Home</a></li>
+        <li><a href="about-us">About Us</a></li>
+        <li><a href="services">Services </a></li>
+        <li><a href="our-hub">The Hub</a></li>
       </ul>
     </nav>
   </header>
@@ -62,7 +62,6 @@
                       <p class="animate__animated animate__fadeInDown">Hassle-free insurance products to cater any sphere of life
                         Backed by the power of technology we are on the verge of seamless experience with Insurance products
                         </p>
-                      <a href=""> Explore Now</a>
                   </div>
                 </div>
                 
@@ -114,25 +113,25 @@
       <div class="home-services-images">
         <div class="top-service animated-element">
           <div class="service-image-writ">
-            <a href="http://"><h4>Raise lasting Wealth With BAS WEALTH</h4></a>
+            <a href="wealth"><h4>Create lasting Wealth With BAS Wealth</h4></a>
           </div>
           <div>
-              <img src="images/health.jpg" alt="">
+              <img src="images/1111.jpg" alt="">
           </div>
         </div>
         <div class="bottom-service animated-element">
           <div>
-            <img src="images/health.jpg" alt="">
+            <img src="images/42.png" alt="">
           </div>
           <div class="service-image-writ">
-            <a href=""><h4>Raise that protection for all you cherish With BAS INSURANCE</h4></a>
+            <a href="insurance"><h4>Protection for all you cherish With BAS Insurance</h4></a>
           </div>
         </div>
       </div>
       <div class="home-services-images">
         <div class="top-service animated-element">
           <div class="service-image-writ">
-            <a href=""><h4>Raise for your capital needs and ventures with BAS FINANCE</h4></a>
+            <a href="finance"><h4>Raise for your capital needs and ventures with BAS Finance</h4></a>
           </div>
           <div>
               <img src="images/health.jpg" alt="">
@@ -140,10 +139,10 @@
         </div>
         <div class="bottom-service animated-element">
           <div>
-            <img src="images/health.jpg" alt="">
+            <img src="images/office-lady.jpg" alt="">
           </div>
           <div class="service-image-writ">
-            <h4>Raise that financial capital to boost that vision </h4>
+            <a href="bas-capital"><h4>Resolve All your corporate needs with BAS Capital </h4></a>
           </div>
         </div>
       </div>
@@ -218,7 +217,7 @@
       <h1>
         Start Your Journey to Wealth with BAS 
         <span>
-          <a href="services.html"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="services"><i class="fa-solid fa-arrow-right"></i></a>
         </span>
       </h1>
       <hr>
@@ -228,31 +227,31 @@
         <div>
           <h3>Explore</h3>
           <ul>
-            <li><a href="about-us.html">Who We Are</a></li>
-            <li><a href="about-us.html#board">Board of Directors</a></li>
-            <li><a href="about-us.html#management">Our Leadership</a></li>
-            <li><a href="careers.html">Careers</a></li>
+            <li><a href="about-us">Who We Are</a></li>
+            <li><a href="about-us#board">Board of Directors</a></li>
+            <li><a href="about-us#management">Our Leadership</a></li>
+            <li><a href="careers">Careers</a></li>
           </ul>
         </div>
         <div>
           <h4>Our Businesses</h4>
           <ul>
-            <li><a href="bas-capital.html">BAS Capital</a></li>
-            <li><a href="wealth.html">BAS Wealth</a></li>
-            <li><a href="finance.html">BAS Finance</a></li>
-            <li><a href="insurance.html">BAS Insurance</a></li>
-            <li class="investment"><strong><a href="investiments.html">Investments</a></strong></li>
+            <li><a href="bas-capital">BAS Capital</a></li>
+            <li><a href="wealth">BAS Wealth</a></li>
+            <li><a href="finance">BAS Finance</a></li>
+            <li><a href="insurance">BAS Insurance</a></li>
+            <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
           </ul>
         </div>
       </div>
       <div class="footer-business">
         <h4>Our Businesses</h4>
         <ul>
-          <li><a href="bas-capital.html">BAS Capital</a></li>
-          <li><a href="wealth.html">BAS Wealth</a></li>
-          <li><a href="finance.html">BAS Insurance</a></li>
-          <li><a href="insurance.html">BAS Finance</a></li>
-          <li class="investment"><strong><a href="investiments.html">Investments</a></strong></li>
+          <li><a href="bas-capital">BAS Capital</a></li>
+          <li><a href="wealth">BAS Wealth</a></li>
+          <li><a href="finance">BAS Insurance</a></li>
+          <li><a href="insurance">BAS Finance</a></li>
+          <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
         </ul>
       </div>
       <div class="explore">
@@ -268,7 +267,7 @@
           <div>
             <h4>Reach Us</h4>
             <ul>
-              <li><a href="our-hub.html#proposal">Send a Message</a></li>
+              <li><a href="our-hub#proposal">Send a Message</a></li>
               <li><a href="">enquiries@basgroupng.com</a></li>
               <li><a href="">customerservice@basgroup.ng</a></li>
               <li><a href="#">+234(0)901 708 3220</a></li>
@@ -278,7 +277,7 @@
       <div class="footer-business">
         <h4>Reach Us</h4>
         <ul>
-          <li><a href="our-hub.html#proposal">Send a Message</a></li>
+          <li><a href="our-hub#proposal">Send a Message</a></li>
           <li><a href="">enquiries@basgroupng.com</a></li>
           <li><a href="">customerservice@basgroup.ng</a></li>
           <li><a href="#">+234(0)901 708 3220</a></li>
@@ -301,8 +300,8 @@
       </div>
       <div>
         <ul>
-          <li><a href="our-hub.html#faq">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
-          <li><a href="our-hub.html#documents">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="our-hub#faq">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="our-hub#documents">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
           <li><a href="">Policies <i class="fa-solid fa-arrow-up"></i></a></li>
           <li><a href="">Terms & Conditions <i class="fa-solid fa-arrow-up"></i></a></li>
         </ul>
@@ -333,13 +332,13 @@
             <nav id="mobile-navbar">
                   <div>
                     <div>
-                      <a href="index.html">
+                      <a href="index">
                         <i class="fa-solid fa-house"></i>
                         <p>Home</p>
                       </a>
                     </div>
                     <div>
-                      <a href="about-us.html">
+                      <a href="about-us">
                         <i class="fa-solid fa-handshake"></i>
                         <p>About Us</p>
                       </a>
@@ -347,13 +346,13 @@
                   </div>
                   <div>
                     <div>
-                      <a href="services.html">
+                      <a href="services">
                         <i class="fa-solid fa-file-invoice"></i>
                         <p>Services</p>
                       </a>
                     </div>
                     <div>
-                      <a href="our-hub.html">
+                      <a href="our-hub">
                         <i class="fa-solid fa-database"></i>
                         <p>Resources</p>
                       </a>

@@ -135,7 +135,7 @@ a{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 3.5rem;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
 }
 .section-one-writ a{
     color: #fff;
@@ -232,6 +232,9 @@ a{
 .home-services-images > div > div{
     width: 50%;
 }
+.home-services-images a{
+    color: #111;
+}
 .top-service > div:first-child{
     display: flex;
     justify-content: center;
@@ -295,7 +298,6 @@ a{
 .portfolio{
     padding: 3.5rem;
     background-color: rgba(18,40,201, .07);
-    height: 85vh;
 }
 .portfolio-body{
     display: flex;
@@ -310,7 +312,7 @@ a{
     max-width: 100%;
     filter: brightness(.6);
 }
-.portfolio-body > div:nth-child(2){
+.partner-logos{
     width: 55%;
 }
 .partner-logos img{
@@ -465,6 +467,9 @@ a{
     .section-one-writ p{
         font-size: .85rem;
     }
+    .section-one-writ{
+        width: 90%;
+    }
     .section1-socials{
         display: none;
     }
@@ -503,17 +508,34 @@ a{
         background-color: rgba(0,0,0,.8);
         padding: 3rem 0rem;
     }
+    .press-news{
+        display: block;
+    }
+    .press-news > div{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .portfolio{
+        padding: 2rem .5rem;
+    }
     .portfolio-body > div:first-child{
         display: none;
     }
     .portfolio-body > div:nth-child(2){
-        width: 90%;
+        width: 100%;
     }
     .portfolio-body{
         display: block;
     }
+    .partner-logos{
+        width: 90%;
+    }
+    .partner-logos > div{
+        margin-block-end: 1rem;
+        gap: .8rem;
+    }
     .partner-logos img{
-        width: 50%;
+        width: 31%;
     }
     .press-release{
         padding: 3.5rem 1rem;
