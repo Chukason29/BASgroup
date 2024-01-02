@@ -60,6 +60,14 @@
     <div><img src="images/proof-fund-img2.jpg" alt="Proof of Funds"></div>
     <div>
         <h1>Proof of Funds</h1>
+        <ul>
+            <li>Fast and stress-free application process</li>
+            <li>3% monthly flat (interest payment upfront)</li>
+            <li>Maximum loan amount - 20million</li>
+            <li>Fast disbursement upon review of complete documentation</li>
+        </ul>
+        <p>Your Study Abroad journey just got easier.</p>
+        <a href="http://">Apply Now</a>
     </div>
 </section>
   <div class="section footer animated-element">

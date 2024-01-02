@@ -203,6 +203,22 @@ label .fa-bars{
 /*********************PROOF OF FUNDS PAGE****************************/
 .proof-fund-details{
     display: flex;
+    
+}
+.proof-fund-details > div{
+    width: 50%;
+}
+.proof-fund-details > div:nth-child(2){
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.proof-fund-details img{
+    max-width: 100%;
+}
+.proof-fund-details ul{
+    list-style-type: circle;
 }
 /********************************************************************/
 
