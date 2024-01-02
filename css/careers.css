@@ -200,6 +200,11 @@ label .fa-bars{
 .whatsapp-link i{
     margin-right: 10px;
 }
+/*********************PROOF OF FUNDS PAGE****************************/
+.proof-fund-details{
+    display: flex;
+}
+/********************************************************************/
 
 /*****************FOOTER SECTION******************/
 .footer{

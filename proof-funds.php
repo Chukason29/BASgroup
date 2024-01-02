@@ -47,7 +47,7 @@
           <p>
             Secure your educational success with BAS Group today. 
             Take advantage of our package at 
-            3% monthly. If you love what we do.
+            3% monthly.
           </p>
           
       </div>
