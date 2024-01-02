@@ -121,7 +121,7 @@
       <h2>Our Services</h2>
       <div class="animated-element" style="display: flex; justify-content: center;">
           <div class="all-services">
-            <div class="car4cash"><h4>Car4Cash Loans</h4></div>
+          <div class="car4cash"><h4>Car4Cash Loans</h4></div>
             <div>
               <p>
                 Need a very fast credit to implement a project? why not use your car to enable it.
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="all-services">
-            <div class="sme-advisory"><h4>Proof of Funds Loan</h4></div>
+          <div class="sme-advisory"><h4><a href="proof-funds" style="background-color: transparent; color: #fff">Proof of Funds Loan</a></h4></div>
             <div>
               <p>
                 Secure quick funds to help with your emigration and mobility needs
