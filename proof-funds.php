@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css">-->
     <link rel="stylesheet" href="css/careers.css">
-    <link rel="stylesheet" href="css/wealth.css">
+    <!--<link rel="stylesheet" href="css/wealth.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c1ada6317.js" crossorigin="anonymous"></script>
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
@@ -69,6 +70,46 @@
         <p>Your Study Abroad journey just got easier.</p>
         <a href="http://">Apply Now</a>
     </div>
+</section>
+<section class="proof-fund-process">
+  <h1>STEP BY STEP APPLICATION PROCESS</h1>
+  <div>
+    <p>Get your proof of funds from any part of Nigeria.</p>
+    <ul>
+      <li>Download all attached documents below. Insert your information where necessary and E-sign using adobe reader</li>
+      <li>Upload all required documents as you begin your application (CLICK APPLY NOW)
+          <em>(Required documents to upload are valid ID, Utility bill, admission letter, evidence of tuition deposit and evidence of visa application)</em></li>
+      <li>A relationship officer is then assigned to you and an email sent with an offer letter.</li>
+      <li>An account will be opened for you at BAS Finance</li>
+      <li>Make an upfront interest payment on amount requested for your Proof of funds.</li>
+      <li>Fast disbursement after review of complete documentation.</li>
+    </ul>
+  </div>
+</section>
+<section class="downloads">
+  <h1>DOWNLOAD DOCUMENT CHECKLIST AND ACCOUNT OPENING FORMS</h1>
+  <div class="download-divs">
+    <div>
+      <p>POF CHECKLIST (pdf)</p>
+      <a href="">Download</a>
+    </div>
+    <div>
+      <p>POF CHECKLIST (pdf)</p>
+      <a href="">Download</a>
+    </div>
+    <div>
+      <p>POF CHECKLIST (pdf)</p>
+      <a href="">Download</a>
+    </div>
+    <div>
+      <p>POF CHECKLIST (pdf)</p>
+      <a href="">Download</a>
+    </div>
+    <div>
+      <p>POF CHECKLIST (pdf)</p>
+      <a href="">Download</a>
+    </div>
+  </div>
 </section>
   <div class="section footer animated-element">
     <div class="footer-section-one">
