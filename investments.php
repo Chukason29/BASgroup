@@ -18,14 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Young+Serif&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c1ada6317.js" crossorigin="anonymous"></script>
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
 <body>
-  <header class="header">
+<header class="header">
     <div class="logo">
+      <img src="images/main-logo2.png" alt="bas group logo" id="white-logo">
       <img src="images/main-logo.png" alt="bas group logo" id="blue-logo">
       <label for="nav-check" data-bs-toggle="modal" data-bs-target="#modal-navbar">
         <i class="fa-solid fa-bars"></i>
@@ -34,12 +35,14 @@
     <nav class="navbar">
       <ul>
         <li><a href="index">Home</a></li>
+        <li><a href="promos">BAS Promos <span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></a></li>
         <li><a href="about-us">About Us</a></li>
         <li><a href="services">Services </a></li>
         <li><a href="our-hub">The Hub</a></li>
       </ul>
     </nav>
-  </header>    
+  </header>
+  
   <section class="main-banner">
       <div class="animate__animated animate__fadeInLeft">
           <h1>Unlock Your Potential, Find Your Place Here</h1>
@@ -215,7 +218,15 @@
                           <p>Resources</p>
                         </a>
                       </div>
-                    </div>    
+                    </div>  
+                    <div>
+                      <div>
+                        <a href="promos" style="display:flex; flex-direction:column; justify-content:center">
+                          <i class="fa-regular fa-face-smile"></i>
+                          <p>BAS promos<span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></p>
+                        </a>
+                      </div>
+                    </div>   
               </nav>
           </div>
           <div class="modal-footer">
@@ -224,7 +235,7 @@
           </div>
         </div>
       </div>
-    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

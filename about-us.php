@@ -23,6 +23,7 @@
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
 <body>
+
   <header class="header">
     <div class="logo">
       <img src="images/main-logo2.png" alt="bas group logo" id="white-logo">
@@ -34,6 +35,7 @@
     <nav class="navbar">
       <ul>
         <li><a href="index">Home</a></li>
+        <li><a href="promos">BAS Promos <span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></a></li>
         <li><a href="about-us">About Us</a></li>
         <li><a href="services">Services </a></li>
         <li><a href="our-hub">The Hub</a></li>
@@ -196,21 +198,7 @@
                         Patricia Maigida
                     </p>
                     <p>
-                        Group Head Insurance Brokerage
-                    </p>
-                    <a href="https://fr.linkedin.com/in/mordecai-gbaratu-0576a7b5/de" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="member animated-element">
-                <div class="member-image">
-                    <img src="images/adnan2.jpg" alt="">
-                </div>
-                <div class="member-details">
-                    <p>
-                        Fauziyyah
-                    </p>
-                    <p>
-                        Head Health Insurance
+                        Group Head Insurance
                     </p>
                     <a href="https://fr.linkedin.com/in/mordecai-gbaratu-0576a7b5/de" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
@@ -220,10 +208,24 @@
                   <img src="images/adnan2.jpg" alt="">
               </div>
               <div class="member-details">
-                  <p> Funkee</p>
+                  <p> Funke</p>
                   <p>Chief Finance Officer</p>
                   <a href="https://fr.linkedin.com/in/mordecai-gbaratu-0576a7b5/de" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
               </div>
+            </div>
+            <div class="member animated-element">
+                <div class="member-image">
+                    <img src="images/adnan2.jpg" alt="">
+                </div>
+                <div class="member-details">
+                    <p>
+                        Perela Tobi BAS Capital
+                    </p>
+                    <p>
+                        Senior Analyst
+                    </p>
+                    <a href="https://fr.linkedin.com/in/mordecai-gbaratu-0576a7b5/de" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
             </div>
         </div>
         <div class="other-services">
@@ -267,12 +269,13 @@
           <div>
             <h4>Our Businesses</h4>
             <ul>
-              <li><a href="bas-capital">BAS Capital</a></li>
-              <li><a href="wealth">BAS Wealth</a></li>
-              <li><a href="finance">BAS Finance</a></li>
-              <li><a href="insurance">BAS Insurance</a></li>
-              <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
-            </ul>
+            <li><a href="bas-capital">BAS Capital</a></li>
+            <li><a href="wealth">BAS Wealth</a></li>
+            <li><a href="finance">BAS Finance</a></li>
+            <li><a href="insurance">BAS Insurance</a></li>
+            <li><a href="bas_institute">BAS Institute</a></li>
+            <li class="investment"><strong><a href="investments">Investments</a></strong></li>
+          </ul>
           </div>
         </div>
         <div class="footer-business">
@@ -280,9 +283,10 @@
           <ul>
             <li><a href="bas-capital">BAS Capital</a></li>
             <li><a href="wealth">BAS Wealth</a></li>
-            <li><a href="finance">BAS Insurance</a></li>
-            <li><a href="insurance">BAS Finance</a></li>
-            <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
+            <li><a href="finance">BAS Finance</a></li>
+            <li><a href="insurance">BAS Insurance</a></li>
+            <li><a href="bas_institute">BAS Institute</a></li>
+            <li class="investment"><strong><a href="investments">Investments</a></strong></li>
           </ul>
         </div>
         <div class="explore">
@@ -388,7 +392,15 @@
                           <p>Resources</p>
                         </a>
                       </div>
-                    </div>    
+                    </div>  
+                    <div>
+                      <div>
+                        <a href="promos" style="display:flex; flex-direction:column; justify-content:center">
+                          <i class="fa-regular fa-face-smile"></i>
+                          <p>BAS promos<span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></p>
+                        </a>
+                      </div>
+                    </div>   
               </nav>
           </div>
           <div class="modal-footer">

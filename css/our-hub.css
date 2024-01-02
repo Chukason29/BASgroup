@@ -92,14 +92,16 @@
     /*Here insert css variables*/
 }
 @media screen and (max-width: 578px) {
+    .hub-first-carousel{
+        background-image: url(../images/fine-guy2.jpg);
+    }
     .form-section{
-        padding: 0rem 3rem;
+        padding: 2rem 3rem;
     }
     .form-section > h1{
         text-align: center;
         margin-block-end: 2rem;
         font-size: 3rem;
-        font-family: 'Young Serif', serif;
     }
     .forms-grid {
         display: block;
@@ -108,6 +110,12 @@
     .forms-grid > div{
         width: 100%;
         margin-block-start: 1.5rem;
+    }
+    .faq{
+        padding: 1rem 2rem;
+    }
+    .faq h2{
+        margin-block: 1.5rem;
     }
     .insights-section > div{
         display: block;

@@ -67,13 +67,6 @@
 .sectioned-two{
     padding: 3rem;
 }
-.sectioned-two .explore a{
-    background-color: rgb(18,40,201);
-    padding: .8rem 2rem;
-    border-radius: 50px;
-    text-decoration: none;
-    color:white;
-}
 .sectioned-two .explore a:hover{
     background-color: rgba(18, 40, 201, .8);
 }
@@ -130,8 +123,7 @@
     font-family: 'Young Serif', serif;
 }
 .governance > div:first-child{
-    width: 35%;
-    height: 100%;
+   
 }
 .governance > div:nth-child(2){
     width: 60%;
@@ -148,6 +140,8 @@
 .corporate {
     display: flex;
     justify-content: space-between;
+    width: 35%;
+    height: 100%;
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -185,7 +179,7 @@
 }
 @media screen and (max-width: 578px) {
     .ceo-statement{
-        padding: 3rem .5rem;
+        padding: .2rem .5rem;
     }
     .ceo-video iframe{
         width: 100%;
@@ -227,29 +221,44 @@
         width: 100%;
         margin-block-start: 2rem;
     }
-    .corporate h1{
-        font-size: 3rem;
+    .corporate {
+        display: block;
+        width: 90%;
+        margin-inline: auto;
+    }
+    .corporate > div{
+        width: 95%;
+        margin-block: .75rem;
+    }
+    .corporate svg{
+        margin-inline-start: 140px;
+    }
+    .corporate h2{
+        font-size: 2.5rem;
+        text-align: center;
     }
     .corporate p{
         font-size: .8rem;
+        text-align: center;
     }
     .governance-right h1{
         display: block;
     }
-    .governance-right{
+    .governance > div:nth-child(2){
+        width: 80%;
         margin-block-start: 3.5rem;
+        margin: .5rem auto;
     }
     .right-inner{
         display: block;
     }
     .right-inner > div{
         width: 85%;
-        margin: auto;
+        margin-inline: auto;
     }
     .team .member{
         width: 80%;
-        margin: 1rem auto;
-        
+        margin: 1rem auto;  
     }  
 
 }

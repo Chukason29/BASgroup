@@ -148,6 +148,9 @@ a{
 .all-services .retail-wealth{
     background-image: url(../images/old-couples.jpg);
 }
+.all-services .micro-insurance{
+    background-image: url(../images/micro-insurance.webp);
+}
 .asset-milestone{
     padding: 4rem 3rem;
 }
@@ -155,12 +158,14 @@ a{
     display: flex;
     gap:1rem;
     justify-content: center;
+    align-items: center;
 }
 .asset-milestone > div > div{
     width: 25%;
-    background-color: rgba(18,40,201,.7);
     color: #ffffff;
     padding: 12px;
+    display: flex;
+    justify-content: center;
 }
 .asset-leadership > div{
     display: flex;
@@ -253,6 +258,9 @@ a{
     text-decoration: none;
 }
 @media screen and (max-width: 578px) {
+    .asset-first-carousel{
+        background-image: url(../images/1111.jpg);
+    }
     .asset-about{
         display: block;
         padding: 1rem 2rem;
@@ -260,14 +268,12 @@ a{
     .asset-about > div{
         width: 100%;
     }
-    .asset-about-sectors > div{
-
-    }
     .asset-about-sectors > div > div{
         width: 48%;
     }
     .asset-services > div{
-        display: block;
+        flex-direction: column;
+        gap: 2rem;
     }
     .asset-services h2{
         text-align: center;
@@ -277,6 +283,11 @@ a{
     .asset-services > div > div{
         width: 90%;
         margin: auto;
+    }
+    .all-services{
+        max-width: 95%;
+        margin-block: 1.5rem;
+        cursor: pointer;
     }
     .asset-milestone > div{
         display: block;

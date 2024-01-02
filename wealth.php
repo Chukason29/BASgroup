@@ -65,46 +65,6 @@
                     
                 </div>
                 </div>
-                <!--<div class="carousel-item asset-second-carousel" data-bs-interval="4000">
-                <div class="carousel-cover">
-                    <div class="section1-main">
-                    <div class="section1-socials">
-                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href=""><i class="fa-brands fa-threads"></i></a>
-                    </div>
-                    <div class="section-one-writ">
-                        <h1 class="animate__animated animate__fadeInDown">Empowering your financial potential through strategic asset management</h1>
-                        <p class="animate__animated animate__fadeInUp">
-                            Unlock the potential of your investments with our expert asset management services. 
-                            We're dedicated to maximizing your financial growth and securing your future
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="carousel-item asset-third-carousel">
-                <div class="carousel-cover">
-                    <div class="section1-main">
-                    <div class="section1-socials">
-                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href=""><i class="fa-brands fa-threads"></i></a>
-                    </div>
-                    <div class="section-one-writ">
-                        <h1 class="animate__animated animate__fadeInUp">Elevating your wealth, one smart investment at a time</h1>
-                        <p class="animate__animated animate__fadeInDown">
-                            Maximizing your wealth and securing your financial future, our asset management company offers expert guidance and 
-                            tailored investment strategies, ensuring your money works smarter and harder for you
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                </div>-->
             </div>
             </div>
     </div>
@@ -176,15 +136,15 @@
     </div>
     <div class="asset-services">
       <h2>Our Services</h2>
-      <div class="animated-element" style="display: flex; justify-content: center;">
+      <div class="animated-element" style="justify-content: center;">
           <div class="all-services">
             <div class="car4cash"><h4>Corporate / HNI</h4></div>
-            <div>
-              <p>
-                Get seamless and hassle-free Comprehensive and Third-Party insurance covers
-              </p> 
+              <div>
+                <p>
+                  Get seamless and hassle-free Comprehensive and Third-Party insurance covers
+                </p> 
+              </div>
             </div>
-          </div>
           <div class="all-services">
             <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
             <div>
@@ -308,113 +268,115 @@
         </div>
     </div>
     <div class="section footer animated-element">
-      <div class="footer-section-one">
-        <hr>
-        <h4>Ready to grow your wealth?</h4>
-        <h1>
-          Start Your Journey to Wealth with BAS 
-          <span>
-            <a href="services"><i class="fa-solid fa-arrow-right"></i></a>
-          </span>
-        </h1>
-        <hr>
-      </div>
-      <div class="footer-section-two">
-        <div class="explore">
-          <div>
-            <h3>Explore</h3>
-            <ul>
-              <li><a href="about-us">Who We Are</a></li>
-              <li><a href="about-us#board">Board of Directors</a></li>
-              <li><a href="about-us#management">Our Leadership</a></li>
-              <li><a href="careers">Careers</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Our Businesses</h4>
-            <ul>
-              <li><a href="bas-capital">BAS Capital</a></li>
-              <li><a href="wealth">BAS Wealth</a></li>
-              <li><a href="finance">BAS Finance</a></li>
-              <li><a href="insurance">BAS Insurance</a></li>
-              <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
-            </ul>
-          </div>
+    <div class="footer-section-one">
+      <hr>
+      <h4>Ready to grow your wealth?</h4>
+      <h1>
+        Start Your Journey to Wealth with BAS 
+        <span>
+          <a href="services"><i class="fa-solid fa-arrow-right"></i></a>
+        </span>
+      </h1>
+      <hr>
+    </div>
+    <div class="footer-section-two">
+      <div class="explore">
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="about-us">Who We Are</a></li>
+            <li><a href="about-us#board">Board of Directors</a></li>
+            <li><a href="about-us#management">Our Leadership</a></li>
+            <li><a href="careers">Careers</a></li>
+          </ul>
         </div>
-        <div class="footer-business">
+        <div>
           <h4>Our Businesses</h4>
           <ul>
             <li><a href="bas-capital">BAS Capital</a></li>
             <li><a href="wealth">BAS Wealth</a></li>
-            <li><a href="finance">BAS Insurance</a></li>
-            <li><a href="insurance">BAS Finance</a></li>
-            <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
+            <li><a href="finance">BAS Finance</a></li>
+            <li><a href="insurance">BAS Insurance</a></li>
+            <li><a href="bas_institute">BAS Institute</a></li>
+            <li class="investment"><strong><a href="investments">Investments</a></strong></li>
           </ul>
-        </div>
-        <div class="explore">
-          <div>
-              <h4>The HUB</h4>
-              <ul>
-                <li><a href="">All News</a></li>
-                <li><a href="">Media</a></li>
-                <!--<li><a href="">Awards</a></li>-->
-                <!--<li><a href="">Blog</a></li>-->
-              </ul>
-            </div>
-            <div>
-              <h4>Reach Us</h4>
-              <ul>
-                <li><a href="our-hub#proposal">Send a Message</a></li>
-                <li><a href="">enquiries@basgroupng.com</a></li>
-                <li><a href="">customerservice@basgroup.ng</a></li>
-                <li><a href="#">+234(0)901 708 3220</a></li>
-              </ul>
-            </div>
-        </div>
-        <div class="footer-business">
-          <h4>Reach Us</h4>
-          <ul>
-            <li><a href="our-hub#proposal">Send a Message</a></li>
-            <li><a href="">enquiries@basgroupng.com</a></li>
-            <li><a href="">customerservice@basgroup.ng</a></li>
-            <li><a href="#">+234(0)901 708 3220</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Stay Updated</h4>
-          <p>Weekly email about trends shaping markets, industries and the global economy.</p>
-          <form action="" method="post" id="footer-form">
-            <div class="form-divs">
-                <input type="email" name="footer-email" id="footer-email" required placeholder="Email:">
-                <button type="submit" id="footer-submit">Send<span id="footer-loader"><i class="fa-regular fa-circle fa-fade"></i></span></button>
-            </div>
-            <div id="footer-result"></div>
-        </form>
-        </div>
-        <div>
-          <h4>Office Address</h4>
-          <p>C4, Plot 1196, 29A N'djamena Crescent, Off Aminu Kano Crescent, Wuse 2, Abuja.</p>
-        </div>
-        <div>
-          <ul>
-            <li><a href="our-hub#faq">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
-            <li><a href="our-hub#documents">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
-            <li><a href="">Policies <i class="fa-solid fa-arrow-up"></i></a></li>
-            <li><a href="">Terms & Conditions <i class="fa-solid fa-arrow-up"></i></a></li>
-          </ul>
-        </div>
-        <div class="footer-socials">
-          <p>
-            <a href="https://wa.link/28zplg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/TheBasCapital?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://x.com/BASgroupNG?t=TfyMcGvY2OHXmElXhorqww&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://instagram.com/basgroupng?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/thebasgroup/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-          </p>
-          <img src="images/certified.png" alt="" width="100">
         </div>
       </div>
+      <div class="footer-business">
+        <h4>Our Businesses</h4>
+        <ul>
+          <li><a href="bas-capital">BAS Capital</a></li>
+          <li><a href="wealth">BAS Wealth</a></li>
+          <li><a href="finance">BAS Insurance</a></li>
+          <li><a href="insurance">BAS Finance</a></li>
+          <li><a href="bas_institute">BAS Institute</a></li>
+          <li class="investment"><strong><a href="investments">Investments</a></strong></li>
+        </ul>
+      </div>
+      <div class="explore">
+        <div>
+            <h4>The HUB</h4>
+            <ul>
+              <li><a href="">All News</a></li>
+              <li><a href="">Media</a></li>
+              <!--<li><a href="">Awards</a></li>-->
+              <!--<li><a href="">Blog</a></li>-->
+            </ul>
+          </div>
+          <div>
+            <h4>Reach Us</h4>
+            <ul>
+              <li><a href="our-hub#proposal">Send a Message</a></li>
+              <li><a href="">enquiries@basgroupng.com</a></li>
+              <li><a href="">customerservice@basgroup.ng</a></li>
+              <li><a href="#">+234(0)901 708 3220</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="footer-business">
+        <h4>Reach Us</h4>
+        <ul>
+          <li><a href="our-hub#proposal">Send a Message</a></li>
+          <li><a href="">enquiries@basgroupng.com</a></li>
+          <li><a href="">customerservice@basgroup.ng</a></li>
+          <li><a href="#">+234(0)901 708 3220</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay Updated</h4>
+        <p>Weekly email about trends shaping markets, industries and the global economy.</p>
+        <form action="" method="post" id="footer-form">
+          <div class="form-divs">
+              <input type="email" name="footer-email" id="footer-email" required placeholder="Email:">
+              <button type="submit" id="footer-submit">Send<span id="footer-loader"><i class="fa-regular fa-circle fa-fade"></i></span></button>
+          </div>
+          <div id="footer-result"></div>
+      </form>
+      </div>
+      <div>
+        <h4>Office Address</h4>
+        <p>C4, Plot 1196, 29A N'djamena Crescent, Off Aminu Kano Crescent, Wuse 2, Abuja.</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="our-hub#faq">FAQs <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="our-hub#documents">Documents <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="">Policies <i class="fa-solid fa-arrow-up"></i></a></li>
+          <li><a href="">Terms & Conditions <i class="fa-solid fa-arrow-up"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-socials">
+        <p>
+          <a href="https://wa.link/28zplg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/TheBasCapital?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://x.com/BASgroupNG?t=TfyMcGvY2OHXmElXhorqww&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://instagram.com/basgroupng?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/thebasgroup/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </p>
+        <img src="images/certified.png" alt="" width="100">
+      </div>
     </div>
+  </div>
     <!-- Modal For Mobile Navigation bar-->
     <div class="modal fade" id="modal-navbar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">

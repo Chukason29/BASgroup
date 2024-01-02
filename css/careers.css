@@ -72,6 +72,9 @@ a{
     display: flex;
     gap: 2rem;
 }
+label .fa-bars{
+    display: none;
+}
 .header ul li a{
     text-decoration: none;
     color: rgb(18,40,201);
@@ -92,18 +95,18 @@ a{
     border-bottom: 1.5px solid #fff;
 }
 
-
-
-
-
 .main-banner{
     padding-inline: 1.5rem;
     margin-block-end: 5rem;
     display: flex;
-    padding-inline: 4rem;
+    padding-inline: 6rem;
 }
 .main-banner > div {
     width: 50%;
+}
+.main-banner > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
 }
 .main-banner h1{
     font-family: 'Young Serif', serif;
@@ -112,14 +115,9 @@ a{
     font-weight: 900;
     margin-block: 2rem ;
 }
-.main-banner h1 span:first-child{
-    color: rgb(26,123,129); 
-}
-.main-banner h1 span:last-child{
-    color: #EB0C82; 
-}
 .main-banner img{
     max-width: 100%;
+    margin-inline: auto;
 }
 .main-banner p{
     font-family: 'Red Hat Display', sans-serif;
@@ -132,7 +130,76 @@ a{
     font-weight: 600;  
 }
 
-
+.available-careers{
+    padding-inline: 6rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-block-end: 2rem;
+}
+.available-careers > div{
+    padding: 15px;
+    width: 40%;
+    height: 20vh;
+    box-shadow: 0 0 10px 2px rgba(200, 200, 200, .2);
+}
+/*******************PROMO PAGE******************************/
+.available-offers{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-block-end: 3rem;
+    align-items:stretch;
+}
+.offers{
+    width: 27.5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.offer-image{
+    width: 100%; 
+    margin: 0;
+}
+.offer-image-accounting{
+    background-image: url(../images/Tax.jpg);
+}
+.offer-image-cover{
+    width: 100%;
+    background-color:rgba(0, 0, 0, .55);
+    padding: 1.5rem 1rem;
+}
+.offer-image-cover p{
+    color: #ffffff;
+}
+.offer-writ{
+    box-shadow: 0px 0px 15px rgba(150, 150, 150, .45);
+    margin: 0;
+}
+.offer-writ p{
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+.offer-image-cover a{
+    display: block;
+    border-radius: 40px;
+    color: #fff;
+    padding:  .4rem 1rem;
+    width: 75%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: .4rem;
+}
+.form-link{
+    background-color: rgb(18,40,201);
+}
+.whatsapp-link{
+    background-color: rgb(37,211,102);
+}
+.whatsapp-link i{
+    margin-right: 10px;
+}
 
 /*****************FOOTER SECTION******************/
 .footer{
@@ -145,14 +212,13 @@ a{
     
 }
 .footer-section-one h1{
-    font-size: 4.2rem;
+    font-size: 3.8rem;
 }
-
 .footer-section-two{
     display: flex;
     gap: 4rem;
     flex-wrap: wrap;
-    padding: 1rem 3.5rem;
+    padding: .2rem 3.5rem;
     width: 100%;
 }
 .footer-section-two > div{
@@ -162,6 +228,14 @@ a{
     margin: 0;
     padding: 0;
 }
+.footer-section-two .explore{
+    display: flex;
+    gap: 1.5rem;
+}
+.explore > div:nth-child(2){
+    display: none;
+}
+
 .footer-section-two ul a{
     display:inline-block;
     color: #ffffff;
@@ -177,6 +251,35 @@ a{
 .footer-socials p{
     display: flex;
     gap: 1rem;
+}
+#footer-form input{
+    background-color: rgb(1, 1, 63);
+    border: none;
+    color: #fff;
+    width: 270px;
+    padding: .5rem;
+    border-bottom: 1px solid #fff;
+}
+#footer-form button{
+    background-color: rgb(1, 1, 63);
+    border: 1px solid #fff;
+    font-size: .95rem;
+    padding: .2rem 1rem;
+    color: #fff;
+}
+#footer-form button:hover{
+    color: #999;
+}
+.footer-section-two ul .investment{
+    background-color: #fff;
+}
+.footer-section-two ul .investment a{
+    display: inline-block;
+    padding-left: .2rem;
+    color: rgb(1, 1, 63);
+    border-radius: 40px;
+    font-size: 1.05rem;
+
 }
 
 @media screen and (max-width: 596px) {
@@ -201,6 +304,9 @@ a{
         display: none;
     }
     .header input{ display: none;}
+    label .fa-bars{
+        display: block;
+    }
     .header i{
         color: rgb(18,40,201);
         font-size: 1.3rem;
@@ -215,8 +321,35 @@ a{
     .main-banner h1{
         font-size: 2rem;
     }
+
+    .available-careers{
+        padding-inline:1rem;
+        display: block;
+    }
+    .available-careers > div{
+        padding: 15px;
+        width: 90%;
+        height: 20vh;
+        margin: .8rem auto;
+        box-shadow: 0 0 10px 2px rgba(200, 200, 200, .2);
+    }
+
+    .available-offers{
+        display: block;
+        margin-block-end: 3rem;
+    }
+    .offers{
+        width: 90%;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-inline: auto;
+        margin-block-end: 2rem;
+    }
+    .offer-image-cover a{
+        width: 85%;
+    }
     .footer{
-        padding: 1rem;
+        padding: .1rem;
     }
     .footer-section-two{
         display: block;
@@ -230,5 +363,15 @@ a{
     }
     .footer-section-one, .footer-section-two{
         padding: 1.2rem 2rem;
+    }
+    .footer-section-two .footer-business{
+        display: none;
+    }
+    .explore > div:nth-child(2){
+        display: block;
+        width: 65%;
+    }
+    .explore > div:first-child{
+        width:35%
     }
 }

@@ -23,7 +23,7 @@
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
 <body>
-  <header class="header">
+<header class="header">
     <div class="logo">
       <img src="images/main-logo2.png" alt="bas group logo" id="white-logo">
       <img src="images/main-logo.png" alt="bas group logo" id="blue-logo">
@@ -34,6 +34,7 @@
     <nav class="navbar">
       <ul>
         <li><a href="index">Home</a></li>
+        <li><a href="promos">BAS Promos <span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></a></li>
         <li><a href="about-us">About Us</a></li>
         <li><a href="services">Services </a></li>
         <li><a href="our-hub">The Hub</a></li>
@@ -56,10 +57,8 @@
                   </div>
                   <div class="section-one-writ">
                       <h1 class="animate__animated animate__fadeInUp">Start The Journey to Financial Stability with Us</h1>
-                      <p class="animate__animated animate__fadeInDown">Hassle-free insurance products to cater any sphere of life
-                        Backed by the power of technology we are on the verge of seamless experience with Insurance products
+                      <p class="animate__animated animate__fadeInDown"> Why not start that journey you will never regret and rise to financial stability
                         </p>
-                      <a href=""> Explore Now</a>
                   </div>
                 </div>
                 
@@ -88,20 +87,24 @@
   <div class="section services animate__animated">
       <div class="services-images">
         <div class="services-images-right-member animated-element">
+          <div class="services-images-right-cover">
             <a href="wealth"><h4><p>BAS Wealth Management</p></h4></a>
-            <img src="images/mansion.jpg" alt="basgroupng wealth naira">
+          </div>
         </div>
         <div class="services-images-right-member animated-element">
+          <div class="services-images-right-cover">
             <a href="bas-capital"><h4><p>BAS Capital</p></h4></a>
-            <img src="images/mansion.jpg" alt="basgroupng wealth naira">
+          </div>
         </div>
         <div class="services-images-right-member animated-element">
-          <a href="finance"><h4><p>BAS Finance</p></h4></a>
-            <img src="images/car.jpg" alt="basgroupng wealth naira">
+            <div class="services-images-right-cover">
+              <a href="finance"><h4><p>BAS Finance</p></h4></a>
+            </div>
         </div>
         <div class="services-images-right-member animated-element">
-          <a href="insurance"><h4><p>BAS Insurance</p></h4></a>
-            <img src="images/car.jpg" alt="basgroupng wealth naira">
+            <div class="services-images-right-cover">
+              <a href="insurance"><h4><p>BAS Insurance</p></h4></a>
+            </div>
         </div>
       </div>
   </div>
@@ -135,7 +138,8 @@
             <li><a href="wealth">BAS Wealth</a></li>
             <li><a href="finance">BAS Finance</a></li>
             <li><a href="insurance">BAS Insurance</a></li>
-            <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
+            <li><a href="bas_institute">BAS Institute</a></li>
+            <li class="investment"><strong><a href="investments">Investments</a></strong></li>
           </ul>
         </div>
       </div>
@@ -146,7 +150,8 @@
           <li><a href="wealth">BAS Wealth</a></li>
           <li><a href="finance">BAS Insurance</a></li>
           <li><a href="insurance">BAS Finance</a></li>
-          <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
+          <li><a href="bas_institute">BAS Institute</a></li>
+          <li class="investment"><strong><a href="investments">Investments</a></strong></li>
         </ul>
       </div>
       <div class="explore">
@@ -252,7 +257,15 @@
                           <p>Resources</p>
                         </a>
                       </div>
-                    </div>    
+                    </div>  
+                    <div>
+                      <div>
+                        <a href="promos" style="display:flex; flex-direction:column; justify-content:center">
+                          <i class="fa-regular fa-face-smile"></i>
+                          <p>BAS promos<span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></p>
+                        </a>
+                      </div>
+                    </div>   
               </nav>
           </div>
           <div class="modal-footer">

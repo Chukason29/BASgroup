@@ -202,7 +202,7 @@ a{
 .home-services{
     display: flex;
     align-items: center;
-    height: 100vh;
+    
     width: 100%;
 }
 .home-services h1, .home-services h4{
@@ -251,8 +251,8 @@ a{
 /*****************Featured News ***********************/
 .featured-news{
     width: 100%;
-    height:50vh;
-    background-image: url(../images/feature-image.jpg);
+    height:55vh;
+    background-image: url(../images/happy-lady.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -456,7 +456,7 @@ a{
     }
     .main-section{
         position: relative;
-        top:-10rem;
+        /*top:-10rem;*/
     }
     .header label{
         display: block;
@@ -473,21 +473,37 @@ a{
     .section1-socials{
         display: none;
     }
+    .home-first-carousel{
+        background-image: url(../images/old-couples2.jpg);
+    }
+    .second-carousel{
+        background-image: url(../images/guy-calling2.jpg);
+    }
+    #third-carousel{
+        background-image: url(../images/22.png);
+    }
+    .carousel-item.home-first-carousel, .second-carousel, .third-carousel,
+.about-first-carousel,.service-first-carousel,.hub-first-carousel
+    {
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+    }
     .home-services {
         display: block;
         height: auto;
-        margin-block-start: -30px;
+        margin-block-start: -5px;
     }
     .home-services > div{
         width: 100%;
     }
-    .home-services h1{ 
-        font-size: 2.5rem;
+    .home-services h4{ 
+        font-size: 1.2rem;
         color: rgb(4, 13, 82);
     }
-    .home-services-images > div{
+    /*.home-services-images > div{
         height: 27vh;
-    }
+    }*/
     .home-services-writ{
         padding: 1rem;
     }

@@ -32,6 +32,7 @@
     <nav class="navbar">
       <ul>
         <li><a href="index">Home</a></li>
+        <li><a href="promos">BAS Promos <span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></a></li>
         <li><a href="about-us">About Us</a></li>
         <li><a href="services">Services </a></li>
         <li><a href="our-hub">The Hub</a></li>
@@ -108,42 +109,40 @@
           </div>
         </div>
   </div>
-  <div class="section">
-    <div class="home-services">
-      <div class="home-services-images">
-        <div class="top-service animated-element">
-          <div class="service-image-writ">
-            <a href="wealth"><h4>Create lasting Wealth With BAS Wealth</h4></a>
-          </div>
-          <div>
-              <img src="images/1111.jpg" alt="">
-          </div>
+  <div class="home-services">
+    <div class="home-services-images">
+      <div class="top-service animated-element">
+        <div class="service-image-writ">
+          <a href="wealth"><h4>Create lasting Wealth With BAS Wealth</h4></a>
         </div>
-        <div class="bottom-service animated-element">
-          <div>
-            <img src="images/42.png" alt="">
-          </div>
-          <div class="service-image-writ">
-            <a href="insurance"><h4>Protection for all you cherish With BAS Insurance</h4></a>
-          </div>
+        <div>
+            <img src="images/1111.jpg" alt="">
         </div>
       </div>
-      <div class="home-services-images">
-        <div class="top-service animated-element">
-          <div class="service-image-writ">
-            <a href="finance"><h4>Raise for your capital needs and ventures with BAS Finance</h4></a>
-          </div>
-          <div>
-              <img src="images/health.jpg" alt="">
-          </div>
+      <div class="bottom-service animated-element">
+        <div>
+          <img src="images/42.png" alt="">
         </div>
-        <div class="bottom-service animated-element">
-          <div>
-            <img src="images/office-lady.jpg" alt="">
-          </div>
-          <div class="service-image-writ">
-            <a href="bas-capital"><h4>Resolve All your corporate needs with BAS Capital </h4></a>
-          </div>
+        <div class="service-image-writ">
+          <a href="insurance"><h4>Protection for all you cherish With BAS Insurance</h4></a>
+        </div>
+      </div>
+    </div>
+    <div class="home-services-images">
+      <div class="top-service animated-element">
+        <div class="service-image-writ">
+          <a href="finance"><h4>Raise for your venture needs with BAS Finance</h4></a>
+        </div>
+        <div>
+            <img src="images/health.jpg" alt="">
+        </div>
+      </div>
+      <div class="bottom-service animated-element">
+        <div>
+          <img src="images/office-lady.jpg" alt="">
+        </div>
+        <div class="service-image-writ">
+          <a href="bas-capital"><h4>Resolve All your corporate needs with BAS Capital </h4></a>
         </div>
       </div>
     </div>
@@ -153,11 +152,11 @@
       <div class="featured-writ animated-element">
         <div>
           <h5>Featured News</h5>
-          <h1>MAYA: Introducing the First WhatsApp Enabled Auto Insurance</h1>
+          <h1>Introducing BAS Promos</h1>
           <p>
-            BAS Insurance launches MAYA to revolutionise the Nigerian market…
+            Get Your Corporate Needs At The Best Rate
           </p>
-          <a href="maya.basinsurancebrokers.com">Read More </a>
+          <a href="promos">Read More </a>
         </div> 
       </div>
     </div>
@@ -208,8 +207,6 @@
         </div>
     </div>
   </div>
-
-   
   <div class="section footer animated-element">
     <div class="footer-section-one">
       <hr>
@@ -240,7 +237,8 @@
             <li><a href="wealth">BAS Wealth</a></li>
             <li><a href="finance">BAS Finance</a></li>
             <li><a href="insurance">BAS Insurance</a></li>
-            <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
+            <li><a href="bas_institute">BAS Institute</a></li>
+            <li class="investment"><strong><a href="investments">Investments</a></strong></li>
           </ul>
         </div>
       </div>
@@ -251,7 +249,8 @@
           <li><a href="wealth">BAS Wealth</a></li>
           <li><a href="finance">BAS Insurance</a></li>
           <li><a href="insurance">BAS Finance</a></li>
-          <li class="investment"><strong><a href="investiments">Investments</a></strong></li>
+          <li><a href="bas_institute">BAS Institute</a></li>
+          <li class="investment"><strong><a href="investments">Investments</a></strong></li>
         </ul>
       </div>
       <div class="explore">
@@ -357,7 +356,15 @@
                         <p>Resources</p>
                       </a>
                     </div>
-                  </div>    
+                  </div>  
+                  <div>
+                    <div>
+                      <a href="promos" style="display:flex; flex-direction:column; justify-content:center">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <p>BAS promos<span style="background-color:rgb(220, 0, 0); font-size: .8rem; padding: 0 .4rem; border-radius: 40px">new</span></p>
+                      </a>
+                    </div>
+                  </div>   
             </nav>
         </div>
         <div class="modal-footer">
@@ -367,11 +374,10 @@
       </div>
     </div>
   </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.js"></script>-->
-    <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.js"></script>-->
+  <script src="js/main.js"></script>
 </body>
 </html>
 
