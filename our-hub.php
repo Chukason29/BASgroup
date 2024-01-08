@@ -305,7 +305,7 @@
         </div>
         <div class="other-services">
           <div class="animated-element">
-              <a href="wealth"><h5><strong>BAS Wealth Management</strong></h5></a>
+              <a href="wealth"><h5><strong>BAS Wealth</strong></h5></a>
           </div>
           <div class="animated-element">
               <a href="bas-capital"><h5> <strong>BAS Capital</strong></h5></a>

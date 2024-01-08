@@ -18,9 +18,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Young+Serif&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c1ada6317.js" crossorigin="anonymous"></script>
     <noscript>Please Enable javascript to use this website</noscript>
 </head>
@@ -68,7 +68,7 @@
             <li>Fast disbursement upon review of complete documentation</li>
         </ul>
         <p>Your Study Abroad journey just got easier.</p>
-        <a href="http://">Apply Now</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScGIKigLxBZXda42J2SkhUWcFF1Ggh6oXdIywPODunJFGhUZA/viewform">Apply Now</a>
     </div>
 </section>
 <section class="proof-fund-process">
@@ -87,27 +87,27 @@
   </div>
 </section>
 <section class="downloads">
-  <h1>DOWNLOAD DOCUMENT CHECKLIST AND ACCOUNT OPENING FORMS</h1>
+  <h2>DOWNLOAD DOCUMENT CHECKLIST AND ACCOUNT OPENING FORMS</h2>
   <div class="download-divs">
     <div>
       <p>POF CHECKLIST (pdf)</p>
-      <a href="">Download</a>
+      <a href="POF-CHECKLIST.pdf" target="_blank">Download</a>
     </div>
     <div>
-      <p>POF CHECKLIST (pdf)</p>
-      <a href="">Download</a>
+      <p>INDIVIDUAL ACCOUNT OPENING - LOAN REQUEST (pdf)</p>
+      <a href="INDIVIDUAL-ACCOUNT-OPENING-LOAN-REQUEST-BAS.pdf" target="_blank">Download</a>
     </div>
     <div>
-      <p>POF CHECKLIST (pdf)</p>
-      <a href="">Download</a>
+      <p>Terms and Condition (pdf)</p>
+      <a href="Terms-and-Condition-BAS.pdf" target="_blank">Download</a>
     </div>
     <div>
-      <p>POF CHECKLIST (pdf)</p>
-      <a href="">Download</a>
+      <p>PROOF OF FUND LETTERS DRAFT (pdf)</p>
+      <a href="PROOF-OF-FUND-LETTERS-DRAFT.pdf" target="_blank">Download</a>
     </div>
     <div>
-      <p>POF CHECKLIST (pdf)</p>
-      <a href="">Download</a>
+      <p>LOAN APPLICATION LETTER DRAFT (pdf)</p>
+      <a href="LOAN-APPLICATION-LETTER-DRAFT.pdf" target="_blank">Download</a>
     </div>
   </div>
 </section>

@@ -40,7 +40,7 @@
         <li><a href="our-hub">The Hub</a></li>
       </ul>
     </nav>
-  </header>
+</header>
   <div class="section main-section">
       <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -88,7 +88,7 @@
       <div class="services-images">
         <div class="services-images-right-member animated-element">
           <div class="services-images-right-cover">
-            <a href="wealth"><h4><p>BAS Wealth Management</p></h4></a>
+            <a href="wealth"><h4><p>BAS Wealth</p></h4></a>
           </div>
         </div>
         <div class="services-images-right-member animated-element">
