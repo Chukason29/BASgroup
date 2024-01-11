@@ -101,6 +101,10 @@ a{
     margin-block: .8rem;
     cursor: pointer;
 }
+.all-services a{
+    background-color: transparent;
+    text-decoration: underline;
+}
 .asset-services h4{
     width: 100%;
     height: 100%;
