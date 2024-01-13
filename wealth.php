@@ -118,75 +118,37 @@
             </div>
         </div>
     </div>
-    <div class="asset-services">
+    <!--<div class="asset-services">
       <h2>Our Services</h2>
       <div class="animated-element" style="justify-content: center;">
-          <div class="all-services">
-            <div class="car4cash"><h4>Corporate / HNI</h4></div>
-              <div>
-                <p>
-                  Get seamless and hassle-free Comprehensive and Third-Party insurance covers
-                </p> 
-              </div>
-            </div>
-          <div class="all-services">
-            <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
-            <div>
-              <p>
-                A comprehensive or a basic cover for your self, family or organisation
-              </p> 
-            </div>
-          </div>
+        
       </div>
-  </div>
-    <!--<div class="asset-milestone">
-        <h2 class="mb-4 text-center">Our Milestones</h2>
-        <div class="animated-element">
-            <div class="animated-element">
-                <h3>Expert Vision Infrastructure Partners</h3>
-                <p>Project Viability Model for 2 Aggregation Centers in Kaduna</p>
-                <p>2021</p>
-            </div>
-            <div class="animated-element">
-                <h3>8ight Global</h3>
-                <p>Equity & Debt Capital raise worth $1 Million</p>
-                <p>2020</p>
-            </div>
-            <div class="animated-element">
-                <h3>Modern Shelter</h3>
-                <p>N4 BILLION 2 year private sukuk issuance</p>
-                <p>2020</p>
-            </div>
-            <div class="animated-element">
-                <h3>Ally Microfinance Bank</h3>
-                <p> N200M Private Debt Note (Ongoing)</p>
-                <p>2020</p>
-            </div>
-        </div>
-        <div class="mt-3">
-            <div>
-                <h3>Hisotech Technologies</h3>
-                <p> N50M Asset finance (Ongoing)</p>
-                <p>2022</p>
-            </div>
-            <div>
-                <h3>Mutual Trust MFB</h3>
-                <p>N1 Billion 3 year Note Issuance, N500M 2 year Note Issuance</p>
-                <p>2020 & 2021</p>
-            </div>
-            <div>
-                <h3>VAS2NET Technologies</h3>
-                <p>Business Valuation Services</p>
-                <p>2020 & 2022</p>
-            </div>
-            <div>
-                <h3>Access Made Limited</h3>
-                <p>Up to N10m working capital finance</p>
-                <p>2022</p>
-
-            </div>
-        </div>
     </div>-->
+    <div class="wealth-services">
+        <h1>Our Services</h1>
+        <p>Feel free to choose from any our plans categorised into Corporate/HNI and Retail</p>
+        <div class="corporate">
+            <h2>Corporate/HNI</h2>
+            
+            <div class="all-services">
+                <div class="car4cash"><h4>Corporate / HNI</h4></div>
+                <div>
+                    <p>
+                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
+                    </p> 
+                </div>
+                </div>
+            </div>
+            <div class="all-services">
+                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
+                    <div>
+                    <p>
+                        A comprehensive or a basic cover for your self, family or organisation
+                    </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
     <div class="asset-leadership animated-element">
         <h2 class="text-center m-5">Our Leadership</h2>
         <div class="">
