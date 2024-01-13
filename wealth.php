@@ -148,6 +148,64 @@
                     </div>
                 </div>
             </div>
+            <div class="all-services">
+                <div class="car4cash"><h4>Corporate / HNI</h4></div>
+                <div>
+                    <p>
+                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
+                    </p> 
+                </div>
+                </div>
+            </div>
+            <div class="all-services">
+                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
+                    <div>
+                    <p>
+                        A comprehensive or a basic cover for your self, family or organisation
+                    </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="retail">
+            <h2>Corporate/HNI</h2>
+            
+            <div class="all-services">
+                <div class="car4cash"><h4>Corporate / HNI</h4></div>
+                <div>
+                    <p>
+                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
+                    </p> 
+                </div>
+                </div>
+            </div>
+            <div class="all-services">
+                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
+                    <div>
+                    <p>
+                        A comprehensive or a basic cover for your self, family or organisation
+                    </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="all-services">
+                <div class="car4cash"><h4>Corporate / HNI</h4></div>
+                <div>
+                    <p>
+                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
+                    </p> 
+                </div>
+                </div>
+            </div>
+            <div class="all-services">
+                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
+                    <div>
+                    <p>
+                        A comprehensive or a basic cover for your self, family or organisation
+                    </p> 
+                    </div>
+                </div>
+            </div>
         </div>
     <div class="asset-leadership animated-element">
         <h2 class="text-center m-5">Our Leadership</h2>
