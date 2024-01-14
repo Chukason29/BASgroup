@@ -125,88 +125,73 @@
       </div>
     </div>-->
     <div class="wealth-services">
-        <h1>Our Services</h1>
-        <p>Feel free to choose from any our plans categorised into Corporate/HNI and Retail</p>
+        <h1 class="text-center">Our Services</h1>
+        <p class="text-center mb-5">Feel free to choose from any our plans categorised into Corporate/HNI and Retail</p>
+        <h2 class="text-center">Corporate/HNI</h2>
         <div class="corporate">
-            <h2>Corporate/HNI</h2>
-            
-            <div class="all-services">
-                <div class="car4cash"><h4>Corporate / HNI</h4></div>
-                <div>
-                    <p>
-                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
-                    </p> 
-                </div>
-                </div>
+            <div class="wealth-category">
+                <h4>Capital Growth</h4>
+                <p>
+                    It provides an opportunity for investors to grow their wealth and finances moderately. 
+                    <!--This product offers competitive high returns on investment among other benefits.-->
+                </p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Free investment advisory service</li>
+                    <li><i class="fa-solid fa-check"></i>Professionally managed investment</li>
+                    <li><i class="fa-solid fa-check"></i>Free medical  insurance cover</li>
+                    <li><i class="fa-solid fa-check"></i>Flexible payment modes</li>
+                    <li><i class="fa-solid fa-check"></i>Attractive yield returns</li>
+                    <li><i class="fa-solid fa-check"></i>Free Estate Planning</li>
+                </ul>
+                <button type="button">more details...</button>
             </div>
-            <div class="all-services">
-                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
-                    <div>
-                    <p>
-                        A comprehensive or a basic cover for your self, family or organisation
-                    </p> 
-                    </div>
-                </div>
+            <div class="wealth-category">
+                <h4>Fixed Income Plan</h4>
+                <p>
+                     promoting investment culture and financial discipline for aspiring investors.
+                </p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Free investment advisory service</li>
+                    <li><i class="fa-solid fa-check"></i>Zero charges on investment account</li>
+                    <!--<li><i class="fa-solid fa-check"></i>Free health insurance cover</li>-->
+                    <li><i class="fa-solid fa-check"></i>Permits investment roll over on maturity</li>
+                    <li><i class="fa-solid fa-check"></i>Attractive interest rates</li>
+                    <li><i class="fa-solid fa-check"></i>Flexibility – (Easy entry & exit)</li>
+                    <li><i class="fa-solid fa-check"></i>Free Estate Planning</li>
+                </ul>
+                <button type="button">more details...</button>
             </div>
-            <div class="all-services">
-                <div class="car4cash"><h4>Corporate / HNI</h4></div>
-                <div>
-                    <p>
-                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
-                    </p> 
-                </div>
-                </div>
+            <div class="wealth-category">
+                <h4>Ethical Investment</h4>
+                <p>
+                    The product caters to long term investors and offers competitive return 
+                    on investment.
+                </p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Free investment advisory service</li>
+                    <li><i class="fa-solid fa-check"></i>Zero charges on investment account</li>
+                    <!--<li><i class="fa-solid fa-check"></i>Free health insurance cover</li>-->
+                    <li><i class="fa-solid fa-check"></i>Permits investment roll over on maturity</li>
+                    <li><i class="fa-solid fa-check"></i>Attractive interest rates</li>
+                    <li><i class="fa-solid fa-check"></i>Flexibility – (Easy entry & exit)</li>
+                    <li><i class="fa-solid fa-check"></i>Free Estate Planning</li>
+                </ul>
+                <button type="button">more details...</button>
             </div>
-            <div class="all-services">
-                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
-                    <div>
-                    <p>
-                        A comprehensive or a basic cover for your self, family or organisation
-                    </p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="retail">
-            <h2>Corporate/HNI</h2>
-            
-            <div class="all-services">
-                <div class="car4cash"><h4>Corporate / HNI</h4></div>
-                <div>
-                    <p>
-                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
-                    </p> 
-                </div>
-                </div>
-            </div>
-            <div class="all-services">
-                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
-                    <div>
-                    <p>
-                        A comprehensive or a basic cover for your self, family or organisation
-                    </p> 
-                    </div>
-                </div>
-            </div>
-            <div class="all-services">
-                <div class="car4cash"><h4>Corporate / HNI</h4></div>
-                <div>
-                    <p>
-                    Get seamless and hassle-free Comprehensive and Third-Party insurance covers
-                    </p> 
-                </div>
-                </div>
-            </div>
-            <div class="all-services">
-                <div class="retail-wealth"><h4>Retail (Individuals & Family)</h4></div>
-                    <div>
-                    <p>
-                        A comprehensive or a basic cover for your self, family or organisation
-                    </p> 
-                    </div>
-                </div>
+            <div class="wealth-category">
+                <h4>USD Linked Plan</h4>
+                <p>
+                    The USD Linked Investment Plan is a product that offers investors 
+                    an opportunity to invest in foreign currencies such as the  US Dollars.
+                    To hedge against exchange rate.
+                </p>
+                <button type="button">more details...</button>
             </div>
         </div>
+        <div class="retail text-center">
+            <h2>Retail(Individuals & Family)</h2>
+        </div>
+    </div>
     <div class="asset-leadership animated-element">
         <h2 class="text-center m-5">Our Leadership</h2>
         <div class="">

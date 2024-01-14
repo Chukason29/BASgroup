@@ -73,6 +73,57 @@ a{
     right: 10%;
     font-size: 1.4rem;
 }
+
+/*Wealt Serices*/
+.wealth-services{
+    background-color: rgb(220,220,220);
+    padding: 30px 5px;
+}
+.corporate{
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+    margin-block-end: 2rem;
+}
+.wealth-category{
+    width: 24%;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 12px;
+    border-radius: 8px;
+    position: relative;
+    
+}
+.wealth-category h4{
+    font-weight: 700;
+    margin-block-end: 2rem;
+}
+.wealth-category p{
+    margin-block-end: 1rem;
+}
+.wealth-category button{
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(18,40,201);
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wealth-category ul{
+    margin: 0;
+    padding: 7px;
+    text-align: left;
+}
+.wealth-category i{
+    margin-inline-end: .6rem;
+}
+.wealth-category li{
+    font-size: .9rem;
+    margin-block-end: .75rem;
+}
 .asset-services{
     background-color: rgb(220, 220, 220);
     padding-block: 2.5rem;
